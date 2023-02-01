@@ -1,83 +1,83 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Home = (props) => {
+
+const HomeSubscribed = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-[1440px] h-[980px] relative overflow-hidden bg-[#f6f5f2]">
-      <div className="w-[68px] h-[980px] absolute left-0 top-0">
-        <div className="w-[67px] h-[980px] absolute left-0 top-0 bg-white">
-          <div className="flex flex-col justify-start items-center w-[67px] absolute left-0 top-[62px] gap-3">
-            <div className="flex-grow-0 flex-shrink-0 w-10 h-px bg-[#e6e2da]"></div>
-            <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 relative p-1 rounded-[999px] border-2 border-[#1e1b19]">
+    <div class="w-[1440px] h-[980px] relative overflow-hidden bg-[#f6f5f2]">
+      <div class="w-[68px] h-[980px] absolute left-0 top-0">
+        <div class="w-[67px] h-[980px] absolute left-0 top-0 bg-white">
+          <div class="flex flex-col justify-start items-center w-[67px] absolute left-0 top-[62px] gap-3">
+            <div class="flex-grow-0 flex-shrink-0 w-10 h-px bg-[#e6e2da]"></div>
+            <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative p-1 rounded-[999px] border-2 border-[#1e1b19]">
               <svg
                 width="25"
                 height="24"
                 viewBox="0 0 25 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
+                class="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
                 preserveAspectRatio="xMidYMid meet"
               >
                 <path d="M12.5 12H6.5Z" fill="#1E1B19"></path>
                 <path
                   d="M12.5 6V12M12.5 12V18M12.5 12H18.5M12.5 12H6.5"
                   stroke="#1E1B19"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 ></path>
               </svg>
             </div>
-            <div className="flex-grow-0 flex-shrink-0 w-10 h-px bg-[#e6e2da]"></div>
-            <div className="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 gap-[17px] py-1">
-              <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 relative gap-2.5 pl-[3px] pr-0.5 py-0.5">
+            <div class="flex-grow-0 flex-shrink-0 w-10 h-px bg-[#e6e2da]"></div>
+            <div class="flex justify-center items-center self-stretch flex-grow-0 flex-shrink-0 gap-[17px] py-1">
+              <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative gap-2.5 pl-[3px] pr-0.5 py-0.5">
                 <svg
                   width="22"
                   height="23"
                   viewBox="0 0 22 23"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="flex-grow-0 flex-shrink-0 w-[20.24px] h-[22.24px] relative"
+                  class="flex-grow-0 flex-shrink-0 w-[20.24px] h-[22.24px] relative"
                   preserveAspectRatio="none"
                 >
                   <circle
-                    cx="3.87866"
+                    cx="3.87891"
                     cy="19.2427"
                     r="2"
                     stroke="#1E1B19"
-                    strokeWidth="2"
+                    stroke-width="2"
                   ></circle>
                   <rect
-                    x="1.87866"
+                    x="1.87891"
                     y="2.24268"
                     width="4"
                     height="4"
                     stroke="#1E1B19"
-                    strokeWidth="2"
+                    stroke-width="2"
                   ></rect>
                   <rect
-                    x="14.8787"
+                    x="14.8789"
                     y="17.2427"
                     width="4"
                     height="4"
                     stroke="#1E1B19"
-                    strokeWidth="2"
+                    stroke-width="2"
                   ></rect>
                   <rect
-                    x="16.8787"
+                    x="16.8789"
                     y="1.41421"
                     width="4"
                     height="4"
-                    transform="rotate(45 16.8787 1.41421)"
+                    transform="rotate(45 16.8789 1.41421)"
                     stroke="#1E1B19"
-                    strokeWidth="2"
+                    stroke-width="2"
                   ></rect>
                   <path
-                    d="M5.87866 4.24268H13.8787M13.8787 19.2427H5.87866M16.8787 7.24268V16.2427"
+                    d="M5.87891 4.24268H13.8789M13.8789 19.2427H5.87891M16.8789 7.24268V16.2427"
                     stroke="#1E1B19"
-                    strokeWidth="2"
+                    stroke-width="2"
                   ></path>
                 </svg>
               </div>
@@ -88,7 +88,7 @@ const Home = (props) => {
               viewBox="0 0 67 39"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="self-stretch flex-grow-0 flex-shrink-0 h-[38px] relative"
+              class="self-stretch flex-grow-0 flex-shrink-0 h-[38px] relative"
               preserveAspectRatio="none"
             >
               <rect
@@ -99,88 +99,89 @@ const Home = (props) => {
                 fill="white"
               ></rect>
               <path
-                d="M40.7697 26.5469C39.3603 27.9563 37.5563 28.9078 35.5857 29.281C33.6152 29.6542 31.5666 29.4323 29.6991 28.6435C27.8316 27.8547 26.2291 26.5344 25.0941 24.8495C23.9591 23.1646 23.3426 21.1908 23.3227 19.1776C23.3028 17.1645 23.8802 15.2026 24.9821 13.5398C26.084 11.877 27.6607 10.5882 29.5129 9.83619C31.3652 9.08422 33.4097 8.90292 35.388 9.31521C37.3664 9.72749 39.1896 10.7149 40.6272 12.1524L33.5122 19.2674L40.7697 26.5469Z"
+                d="M40.7704 26.5469C39.361 27.9563 37.557 28.9078 35.5865 29.281C33.6159 29.6542 31.5674 29.4323 29.6999 28.6435C27.8324 27.8547 26.2298 26.5344 25.0948 24.8495C23.9598 23.1646 23.3434 21.1908 23.3234 19.1776C23.3035 17.1645 23.881 15.2026 24.9828 13.5398C26.0847 11.877 27.6614 10.5882 29.5137 9.83619C31.3659 9.08422 33.4105 8.90292 35.3888 9.31521C37.3671 9.72749 39.1903 10.7149 40.6279 12.1524L33.513 19.2674L40.7704 26.5469Z"
                 fill="#1E1B19"
               ></path>
               <path
-                d="M27.9556 24.8161C31.0959 27.9564 36.1563 27.9874 39.2583 24.8854C42.3603 21.7834 42.3292 16.723 39.1889 13.5827C36.0486 10.4424 30.9883 10.4114 27.8863 13.5134C24.7843 16.6154 24.8153 21.6758 27.9556 24.8161Z"
+                d="M27.9546 24.8161C31.0949 27.9564 36.1553 27.9874 39.2573 24.8854C42.3593 21.7834 42.3283 16.723 39.188 13.5827C36.0477 10.4424 30.9873 10.4114 27.8853 13.5134C24.7833 16.6154 24.8143 21.6758 27.9546 24.8161Z"
                 fill="white"
               ></path>
               <path
-                d="M31.5736 26.0107C34.6655 27.3168 38.1811 25.8897 39.4259 22.8231C40.6707 19.7566 39.1734 16.2119 36.0815 14.9059C32.9896 13.5998 29.474 15.0269 28.2292 18.0934C26.9844 21.16 28.4817 24.7047 31.5736 26.0107Z"
-                fill="url(#paint0_radial_576_473851)"
+                style={{ mixBlendMode: 'multiply' }}
+                d="M31.5729 26.0107C34.6647 27.3168 38.1803 25.8897 39.4252 22.8231C40.67 19.7566 39.1727 16.2119 36.0808 14.9059C32.9889 13.5998 29.4733 15.0269 28.2285 18.0934C26.9836 21.16 28.481 24.7047 31.5729 26.0107Z"
+                fill="url(#paint0_radial_588_472274)"
               ></path>
               <path
-                d="M45.7298 16.0135L45.1097 16.7981C45.7874 17.3337 46.2258 18.1146 46.3294 18.9677C46.433 19.8204 46.1937 20.6746 45.6668 21.3436C45.14 22.0125 44.367 22.4436 43.5165 22.5409C42.6836 22.6362 41.8425 22.4037 41.1717 21.8914L41.1412 21.8609L41.0986 21.8267C40.5378 21.3767 39.823 21.1624 39.1069 21.2321C38.3904 21.3019 37.7303 21.6505 37.2699 22.2043L37.2643 22.211L37.2589 22.2178C36.6492 22.9776 35.8172 23.528 34.877 23.7929C33.9367 24.0578 32.9339 24.0241 32.007 23.6949C31.08 23.3657 30.2754 22.7573 29.7049 21.9537C29.1345 21.1501 28.8268 20.1918 28.8233 19.2118C28.8198 18.2319 29.1205 17.2785 29.6827 16.4826C30.2448 15.6868 31.0414 15.0866 31.9631 14.765C32.8849 14.4433 33.8872 14.416 34.8318 14.6883C35.7765 14.9606 36.6161 15.5191 37.2342 16.2869L37.2401 16.2943L37.2462 16.3015C37.707 16.8523 38.3643 17.2032 39.0788 17.2778C39.7937 17.3525 40.5096 17.1446 41.0721 16.6963L41.1161 16.6612L41.1379 16.6395C41.7056 16.2319 42.3935 16.0199 43.0983 16.038C43.8256 16.0567 44.5286 16.3194 45.0937 16.7852L45.7298 16.0135Z"
+                d="M45.7305 16.0135L45.1104 16.7981C45.7882 17.3337 46.2265 18.1146 46.3301 18.9677C46.4337 19.8204 46.1944 20.6746 45.6675 21.3436C45.1407 22.0125 44.3677 22.4436 43.5172 22.5409C42.6843 22.6362 41.8433 22.4037 41.1725 21.8914L41.142 21.8609L41.0993 21.8267C40.5385 21.3767 39.8238 21.1624 39.1076 21.2321C38.3912 21.3019 37.7311 21.6505 37.2706 22.2043L37.2651 22.211L37.2596 22.2178C36.65 22.9776 35.8179 23.528 34.8777 23.7929C33.9374 24.0578 32.9346 24.0241 32.0077 23.6949C31.0807 23.3657 30.2762 22.7573 29.7057 21.9537C29.1352 21.1501 28.8276 20.1918 28.8241 19.2118C28.8206 18.2319 29.1212 17.2785 29.6834 16.4826C30.2455 15.6868 31.0421 15.0866 31.9638 14.765C32.8857 14.4433 33.888 14.416 34.8325 14.6883C35.7772 14.9606 36.6168 15.5191 37.235 16.2869L37.2409 16.2943L37.2469 16.3015C37.7077 16.8523 38.365 17.2032 39.0796 17.2778C39.7944 17.3525 40.5103 17.1446 41.0728 16.6963L41.1169 16.6612L41.1386 16.6395C41.7064 16.2319 42.3942 16.0199 43.099 16.038C43.8263 16.0567 44.5294 16.3194 45.0944 16.7852L45.7305 16.0135Z"
                 stroke="#1E1B19"
-                strokeWidth="2"
+                stroke-width="2"
               ></path>
               <circle cx="43.0566" cy="19.2505" r="1.25" fill="black"></circle>
               <defs>
                 <radialGradient
-                  id="paint0_radial_576_473851"
+                  id="paint0_radial_588_472274"
                   cx="0"
                   cy="0"
                   r="1"
                   gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(-365.316 1819.9) rotate(45) scale(232.942 228.355)"
+                  gradientTransform="translate(-365.317 1819.9) rotate(45) scale(232.942 228.355)"
                 >
                   <stop></stop>
-                  <stop offset="1" stopColor="white"></stop>
+                  <stop offset="1" stop-color="white"></stop>
                 </radialGradient>
               </defs>
             </svg>
           </div>
-          <div className="flex justify-center items-center w-[67px] absolute left-0 top-3 gap-3.5 py-1">
+          <div class="flex justify-center items-center w-[67px] absolute left-0 top-3 gap-3.5 py-1">
             <svg
               width="33"
               height="32"
               viewBox="0 0 33 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="flex-grow-0 flex-shrink-0 w-8 h-8 relative"
+              class="flex-grow-0 flex-shrink-0 w-8 h-8 relative"
               preserveAspectRatio="xMidYMid meet"
             >
               <path
-                d="M5.83325 8H27.1666H5.83325ZM5.83325 16H27.1666H5.83325ZM5.83325 24H27.1666Z"
+                d="M5.83398 8H27.1673H5.83398ZM5.83398 16H27.1673H5.83398ZM5.83398 24H27.1673Z"
                 fill="white"
               ></path>
               <path
-                d="M5.83325 24H27.1666M5.83325 8H27.1666H5.83325ZM5.83325 16H27.1666H5.83325Z"
+                d="M5.83398 24H27.1673M5.83398 8H27.1673H5.83398ZM5.83398 16H27.1673H5.83398Z"
                 stroke="#1E1B19"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
               ></path>
             </svg>
           </div>
         </div>
       </div>
-      <div className="w-[1372px] h-[49px]">
-        <div className="flex justify-start items-start absolute left-[1328px] top-4 gap-2.5">
-          <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 overflow-hidden p-1 rounded-2xl">
-            <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[4.999999523162842px]">
+      <div class="w-[1372px] h-[49px]">
+        <div class="flex justify-start items-start absolute left-[1328px] top-4 gap-2.5">
+          <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 overflow-hidden p-1 rounded-2xl">
+            <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[4.999999523162842px]">
               <svg
                 width="26"
                 height="26"
                 viewBox="0 0 26 26"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0 w-[26px] h-[26px] relative"
+                class="flex-grow-0 flex-shrink-0 w-[26px] h-[26px] relative"
                 preserveAspectRatio="none"
               >
                 <path
-                  d="M19.4998 9.75C19.4998 11.5556 19.4998 13.3611 19.4998 15.1667C19.4998 17.3333 20.2221 18.7778 21.6665 19.5H4.33317C5.77761 18.7778 6.49984 17.3333 6.49984 15.1667C6.49984 13.3611 6.49984 11.5556 6.49984 9.75C6.49984 6.16015 9.40999 3.25 12.9998 3.25C16.5897 3.25 19.4998 6.16015 19.4998 9.75Z"
+                  d="M19.4993 9.75C19.4993 11.5556 19.4993 13.3611 19.4993 15.1667C19.4993 17.3333 20.2216 18.7778 21.666 19.5H4.33268C5.77713 18.7778 6.49935 17.3333 6.49935 15.1667C6.49935 13.3611 6.49935 11.5556 6.49935 9.75C6.49935 6.16015 9.4095 3.25 12.9993 3.25C16.5892 3.25 19.4993 6.16015 19.4993 9.75Z"
                   stroke="black"
-                  strokeWidth="2"
-                  strokeLinecap="square"
-                  strokeLinejoin="round"
+                  stroke-width="2"
+                  stroke-linecap="square"
+                  stroke-linejoin="round"
                 ></path>
                 <path
-                  d="M10.8332 19.5C10.8332 20.6966 11.8032 21.6667 12.9998 21.6667C14.1965 21.6667 15.1665 20.6966 15.1665 19.5"
+                  d="M10.8327 19.5C10.8327 20.6966 11.8027 21.6667 12.9993 21.6667C14.196 21.6667 15.166 20.6966 15.166 19.5"
                   stroke="black"
-                  strokeWidth="2"
-                  strokeLinecap="square"
+                  stroke-width="2"
+                  stroke-linecap="square"
                 ></path>
               </svg>
             </div>
@@ -192,7 +193,7 @@ const Home = (props) => {
           viewBox="0 0 78 19"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-[78px] h-[18.02px] absolute left-[115px] top-[23px]"
+          class="w-[78px] h-[18.02px] absolute left-[115px] top-[23px]"
           preserveAspectRatio="none"
         >
           <path
@@ -218,40 +219,40 @@ const Home = (props) => {
           viewBox="0 0 19 20"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-[15.59px] h-[16.59px]"
+          class="w-[15.59px] h-[16.59px]"
           preserveAspectRatio="none"
         >
           <path
             d="M7 13C10.3137 13 13 10.3137 13 7C13 3.68629 10.3137 1 7 1C3.68629 1 1 3.68629 1 7C1 10.3137 3.68629 13 7 13Z"
             stroke="#1E1B19"
-            strokeWidth="2"
-            strokeLinecap="square"
+            stroke-width="2"
+            stroke-linecap="square"
           ></path>
           <path
             d="M11 12L16.5879 17.5879"
             stroke="#1E1B19"
-            strokeWidth="2"
-            strokeLinecap="square"
+            stroke-width="2"
+            stroke-linecap="square"
           ></path>
         </svg>
-        <div className="w-[405px] h-[21px] absolute left-[939px] top-6">
-          <div className="flex flex-col justify-center items-start absolute left-[-24px] top-0 cursor-pointer" onClick={() => navigate('/')}>
-            <p className="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
+        <div class="w-[405px] h-[21px] absolute left-[939px] top-6">
+          <div class="flex flex-col justify-center items-start absolute left-[-24px] top-0 cursor-pointer" onClick={() => navigate('/')}>
+            <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Home
             </p>
           </div>
-          <div className="flex flex-col justify-center items-start absolute left-10 top-0 cursor-pointer" onClick={() => navigate('/data-landscape')}>
-            <p className="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start absolute left-10 top-0 cursor-pointer" onClick={() => navigate('/data-landscape')}>
+            <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Data Landscape
             </p>
           </div>
-          <div className="flex flex-col justify-center items-start absolute left-[172px] top-0 cursor-pointer" onClick={() => navigate('/exchange-all')}>
-            <p className="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start absolute left-[172px] top-0 cursor-pointer" onClick={() => navigate('/exchange-all')}>
+            <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Exchange
             </p>
           </div>
-          <div className="flex flex-col justify-center items-start absolute left-[260px] top-0">
-            <p className="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start absolute left-[260px] top-0">
+            <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Insights
             </p>
           </div>
@@ -262,7 +263,7 @@ const Home = (props) => {
           viewBox="0 0 32 33"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-8 h-8 absolute left-[1376px] top-[17.5px]"
+          class="w-8 h-8 absolute left-[1376px] top-[17.5px]"
           preserveAspectRatio="none"
         >
           <circle cx="16" cy="16.5" r="16" fill="#CCC6BB"></circle>
@@ -275,63 +276,62 @@ const Home = (props) => {
             fill="#1E1B19"
           ></path>
         </svg>
-        <div className="w-[1372px] h-0 absolute left-[68px] top-16"></div>
+        <div class="w-[1372px] h-0 absolute left-[68px] top-16"></div>
         <svg
           width="41"
           height="2"
           viewBox="0 0 41 2"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute left-[913px] top-[63px]"
+          class="absolute left-[913px] top-[63px]"
           preserveAspectRatio="xMidYMid meet"
         >
-          <line y1="1" x2="41" y2="1" stroke="black" strokeWidth="2"></line>
+          <line y1="1" x2="41" y2="1" stroke="black" stroke-width="2"></line>
         </svg>
-        <div className="w-[1372px] h-px absolute left-[68px] top-16 overflow-hidden bg-[#e6e2da]"></div>
+        <div class="w-[1372px] h-px absolute left-[68px] top-16 overflow-hidden bg-[#e6e2da]"></div>
       </div>
-      <div className="w-[992px] h-48">
+      <div class="w-[992px] h-48">
         <div
-          className="w-80 h-40 absolute left-[92px] top-[249px] bg-white border border-[#eaecf0] cursor-pointer"
+          class="w-80 h-40 absolute left-[92px] top-[249px] bg-white border border-[#eaecf0]"
           style={{ boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)' }}
-          onClick={() => navigate('/worker-profile')}
         >
-          <p className="w-[301.33px] absolute left-6 top-6 text-base text-left text-[#101828]">
+          <p class="w-[301.33px] absolute left-6 top-6 text-base text-left text-[#101828]">
             Worker Profile
           </p>
-          <div className="w-[301.33px] h-16 absolute left-6 top-12"></div>
-          <p className="absolute left-6 top-[117px] text-xs text-center text-[#101828]">
+          <div class="w-[301.33px] h-16 absolute left-6 top-12"></div>
+          <p class="absolute left-6 top-[117px] text-xs text-center text-[#101828]">
             Updated
           </p>
-          <p className="w-[99.33px] absolute left-[82px] top-[117px] text-xs text-left text-[#7d766f]">
+          <p class="w-[99.33px] absolute left-[82px] top-[117px] text-xs text-left text-[#7d766f]">
             1 hour ago
           </p>
           <img
             src="group-9151.png"
-            className="w-[125px] h-[143px] absolute left-[188px] top-2 object-none"
+            class="w-[125px] h-[143px] absolute left-[188px] top-2 object-none"
           />
         </div>
         <div
-          className="w-80 h-40 absolute left-[428px] top-[249px] bg-white border border-[#eaecf0]"
-          style={{boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)'}}
+          class="w-80 h-40 absolute left-[428px] top-[249px] bg-white border border-[#eaecf0]"
+          style={{ boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)' }}
         >
-          <p className="w-[301.33px] absolute left-6 top-6 text-base text-left text-[#101828]">
-            <span className="w-[301.33px] text-base text-left text-[#101828]">
+          <p class="w-[301.33px] absolute left-6 top-6 text-base text-left text-[#101828]">
+            <span class="w-[301.33px] text-base text-left text-[#101828]">
               Employee
             </span>
             <br />
-            <span className="w-[301.33px] text-base text-left text-[#101828]">
+            <span class="w-[301.33px] text-base text-left text-[#101828]">
               Dashboard
             </span>
           </p>
-          <div className="w-[301.33px] h-16 absolute left-6 top-[72px]">
-            <div className="w-[157.33px] h-5 absolute left-0 top-11">
-              <div className="w-[157.33px] h-5 absolute left-0 top-0">
-                <div className="w-[50px] h-5 absolute left-0 top-0">
-                  <p className="absolute left-0 top-[5px] text-xs text-center text-black">
+          <div class="w-[301.33px] h-16 absolute left-6 top-[72px]">
+            <div class="w-[157.33px] h-5 absolute left-0 top-11">
+              <div class="w-[157.33px] h-5 absolute left-0 top-0">
+                <div class="w-[50px] h-5 absolute left-0 top-0">
+                  <p class="absolute left-0 top-[5px] text-xs text-center text-black">
                     Updated
                   </p>
                 </div>
-                <p className="w-[99.33px] absolute left-[58px] top-[5px] text-xs text-left text-[#7d766f]">
+                <p class="w-[99.33px] absolute left-[58px] top-[5px] text-xs text-left text-[#7d766f]">
                   3 days ago
                 </p>
               </div>
@@ -339,25 +339,25 @@ const Home = (props) => {
           </div>
           <img
             src="group-9151-2.png"
-            className="w-[111px] h-[111px] absolute left-[190px] top-[13px] object-none"
+            class="w-[111px] h-[111px] absolute left-[190px] top-[13px] object-none"
           />
         </div>
         <div
-          className="w-80 h-40 absolute left-[764px] top-[249px] bg-white border border-[#eaecf0]"
+          class="w-80 h-40 absolute left-[764px] top-[249px] bg-white border border-[#eaecf0]"
           style={{ boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)' }}
         >
-          <p className="w-[129px] absolute left-6 top-6 text-base text-left text-[#101828]">
+          <p class="w-[129px] absolute left-6 top-6 text-base text-left text-[#101828]">
             Learner Dashboard
           </p>
-          <div className="w-[301.33px] h-16 absolute left-6 top-[72px]">
-            <div className="w-[157.33px] h-5 absolute left-0 top-11">
-              <div className="w-[157.33px] h-5 absolute left-0 top-0">
-                <div className="w-[50px] h-5 absolute left-0 top-0">
-                  <p className="absolute left-0 top-[5px] text-xs text-center text-black">
+          <div class="w-[301.33px] h-16 absolute left-6 top-[72px]">
+            <div class="w-[157.33px] h-5 absolute left-0 top-11">
+              <div class="w-[157.33px] h-5 absolute left-0 top-0">
+                <div class="w-[50px] h-5 absolute left-0 top-0">
+                  <p class="absolute left-0 top-[5px] text-xs text-center text-black">
                     Updated
                   </p>
                 </div>
-                <p className="w-[99.33px] absolute left-[58px] top-[5px] text-xs text-left text-[#7d766f]">
+                <p class="w-[99.33px] absolute left-[58px] top-[5px] text-xs text-left text-[#7d766f]">
                   12/01/23
                 </p>
               </div>
@@ -365,15 +365,15 @@ const Home = (props) => {
           </div>
           <img
             src="group-9151-3.png"
-            className="w-[133px] h-[92px] absolute left-[172px] top-7 object-none"
+            class="w-[133px] h-[92px] absolute left-[172px] top-7 object-none"
           />
         </div>
-        <p className="absolute left-[92px] top-[217px] text-base text-left text-black">
+        <p class="absolute left-[92px] top-[217px] text-base text-left text-black">
           Insights
         </p>
       </div>
-      <div className="w-[1328px] h-[250px]">
-        <p className="absolute left-[92px] top-[441px] text-base text-left text-black">
+      <div class="w-[1328px] h-[250px]">
+        <p class="absolute left-[92px] top-[441px] text-base text-left text-black">
           Data Products
         </p>
         <svg
@@ -382,7 +382,7 @@ const Home = (props) => {
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6 absolute left-[1362px] top-[443px]"
+          class="w-6 h-6 absolute left-[1362px] top-[443px]"
           preserveAspectRatio="xMidYMid meet"
         >
           <path
@@ -396,7 +396,7 @@ const Home = (props) => {
           viewBox="0 0 24 24"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6 absolute left-[1396px] top-[443px]"
+          class="w-6 h-6 absolute left-[1396px] top-[443px]"
           preserveAspectRatio="xMidYMid meet"
         >
           <path
@@ -405,13 +405,13 @@ const Home = (props) => {
           ></path>
         </svg>
         <div
-          className="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[92px] top-[473px] overflow-hidden bg-white border border-gray-200"
+          class="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[92px] top-[473px] overflow-hidden bg-white border border-gray-200"
           style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
-            <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
-                <p className="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
+            <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
+                <p class="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
                   All Learner Records
                 </p>
                 <svg
@@ -420,53 +420,53 @@ const Home = (props) => {
                   viewBox="0 0 20 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="flex-grow-0 flex-shrink-0 w-5 h-5"
+                  class="flex-grow-0 flex-shrink-0 w-5 h-5"
                   preserveAspectRatio="none"
                 >
                   <circle cx="10" cy="10" r="10" fill="#4EBF8D"></circle>
                   <path
-                    d="M9.99999 7.75003C9.55498 7.75003 9.11997 7.88199 8.74996 8.12922C8.37995 8.37646 8.09156 8.72786 7.92126 9.13899C7.75096 9.55013 7.7064 10.0025 7.79322 10.439C7.88004 10.8754 8.09433 11.2764 8.409 11.591C8.72367 11.9057 9.12458 12.12 9.56104 12.2068C9.99749 12.2936 10.4499 12.2491 10.861 12.0788C11.2722 11.9085 11.6236 11.6201 11.8708 11.2501C12.118 10.8801 12.25 10.445 12.25 10C12.2493 9.4035 12.012 8.83159 11.5902 8.40978C11.1684 7.98797 10.5965 7.7507 9.99999 7.75003ZM9.99999 11.75C9.65387 11.75 9.31553 11.6474 9.02774 11.4551C8.73995 11.2628 8.51565 10.9895 8.3832 10.6697C8.25075 10.35 8.21609 9.99809 8.28361 9.65862C8.35114 9.31915 8.51781 9.00733 8.76255 8.76259C9.00729 8.51785 9.31911 8.35118 9.65858 8.28365C9.99805 8.21613 10.3499 8.25079 10.6697 8.38324C10.9895 8.51569 11.2628 8.74 11.4551 9.02778C11.6474 9.31557 11.75 9.65391 11.75 10C11.7495 10.464 11.5649 10.9088 11.2369 11.2369C10.9088 11.565 10.464 11.7495 9.99999 11.75ZM6.08385 8.34582C5.75433 9.12487 5.66499 9.98458 5.82728 10.8147C5.98957 11.6449 6.39609 12.4077 6.99474 13.0052C7.01795 13.0285 7.03637 13.056 7.04893 13.0863C7.0615 13.1167 7.06796 13.1492 7.06796 13.182C7.06797 13.2148 7.0615 13.2473 7.04894 13.2777C7.03638 13.308 7.01797 13.3356 6.99475 13.3588C6.97154 13.382 6.94398 13.4004 6.91366 13.413C6.88333 13.4255 6.85082 13.432 6.81799 13.432C6.78516 13.432 6.75266 13.4255 6.72233 13.413C6.692 13.4004 6.66444 13.382 6.64122 13.3588C6.1997 12.918 5.84943 12.3944 5.61044 11.8181C5.37145 11.2417 5.24843 10.6239 5.24843 10C5.24843 9.37611 5.37145 8.75832 5.61044 8.18198C5.84943 7.60565 6.1997 7.0821 6.64122 6.64127C6.68811 6.59439 6.75169 6.56805 6.81799 6.56805C6.88429 6.56806 6.94787 6.5944 6.99475 6.64128C7.04163 6.68816 7.06797 6.75175 7.06796 6.81805C7.06796 6.88435 7.04162 6.94793 6.99474 6.99481C6.60657 7.38198 6.29722 7.8408 6.08385 8.34582ZM14.75 10C14.7507 10.6239 14.6282 11.2418 14.3895 11.8182C14.1507 12.3946 13.8004 12.9182 13.3588 13.3588C13.3355 13.382 13.308 13.4004 13.2777 13.413C13.2473 13.4255 13.2148 13.432 13.182 13.432C13.1492 13.432 13.1167 13.4255 13.0863 13.413C13.056 13.4004 13.0284 13.382 13.0052 13.3588C12.982 13.3356 12.9636 13.308 12.951 13.2777C12.9385 13.2473 12.932 13.2148 12.932 13.182C12.932 13.1492 12.9385 13.1167 12.951 13.0863C12.9636 13.056 12.982 13.0285 13.0052 13.0052C13.4003 12.6108 13.7138 12.1424 13.9276 11.6267C14.1415 11.1111 14.2516 10.5583 14.2516 10C14.2516 9.44177 14.1415 8.88899 13.9276 8.37332C13.7138 7.85765 13.4003 7.38921 13.0052 6.99481C12.982 6.9716 12.9636 6.94404 12.951 6.91371C12.9385 6.88338 12.932 6.85088 12.932 6.81805C12.932 6.78522 12.9385 6.75271 12.951 6.72238C12.9636 6.69205 12.982 6.66449 13.0052 6.64128C13.0284 6.61807 13.056 6.59965 13.0863 6.58709C13.1167 6.57452 13.1492 6.56806 13.182 6.56805C13.2148 6.56805 13.2473 6.57452 13.2777 6.58708C13.308 6.59964 13.3355 6.61805 13.3588 6.64127C13.8004 7.08189 14.1507 7.60545 14.3895 8.18185C14.6282 8.75825 14.7507 9.37614 14.75 10ZM5.22698 14.773C5.25019 14.7962 5.26861 14.8238 5.28117 14.8541C5.29374 14.8844 5.3002 14.9169 5.3002 14.9498C5.30021 14.9826 5.29374 15.0151 5.28118 15.0454C5.26862 15.0758 5.25021 15.1033 5.22699 15.1265C5.20378 15.1498 5.17622 15.1682 5.1459 15.1807C5.11557 15.1933 5.08306 15.1998 5.05023 15.1998C5.0174 15.1998 4.9849 15.1933 4.95457 15.1807C4.92424 15.1682 4.89668 15.1498 4.87346 15.1266C4.19954 14.4537 3.66489 13.6546 3.30011 12.7749C2.93532 11.8953 2.74756 10.9523 2.74756 10C2.74756 9.04773 2.93532 8.10477 3.30011 7.22511C3.66489 6.34545 4.19954 5.54634 4.87346 4.8735C4.92035 4.82663 4.98393 4.80029 5.05023 4.80029C5.11653 4.8003 5.18011 4.82664 5.22699 4.87352C5.27387 4.9204 5.30021 4.98399 5.3002 5.05029C5.3002 5.11659 5.27386 5.18017 5.22698 5.22705C4.59948 5.85345 4.10166 6.59744 3.762 7.41645C3.42234 8.23545 3.24751 9.11339 3.24751 10C3.24751 10.8867 3.42234 11.7646 3.762 12.5836C4.10166 13.4026 4.59948 14.1466 5.22698 14.773ZM17.25 10C17.2512 10.9523 17.0642 11.8954 16.6998 12.7752C16.3353 13.6549 15.8007 14.454 15.1265 15.1266C15.0796 15.1734 15.016 15.1998 14.9497 15.1998C14.8834 15.1998 14.8199 15.1734 14.773 15.1265C14.7261 15.0797 14.6998 15.0161 14.6998 14.9498C14.6998 14.8835 14.7261 14.8199 14.773 14.773C15.4005 14.1466 15.8983 13.4026 16.238 12.5836C16.5776 11.7646 16.7525 10.8867 16.7525 10C16.7525 9.11339 16.5776 8.23545 16.238 7.41645C15.8983 6.59744 15.4005 5.85345 14.773 5.22705C14.7261 5.18017 14.6998 5.11659 14.6998 5.05029C14.6998 4.98399 14.7261 4.9204 14.773 4.87352C14.8199 4.82664 14.8834 4.8003 14.9497 4.80029C15.016 4.80029 15.0796 4.82663 15.1265 4.8735C15.8007 5.54603 16.3353 6.34513 16.6997 7.2249C17.0642 8.10467 17.2512 9.04777 17.25 10Z"
+                    d="M10.0005 7.75003C9.55547 7.75003 9.12045 7.88199 8.75044 8.12922C8.38043 8.37646 8.09205 8.72786 7.92175 9.13899C7.75145 9.55013 7.70689 10.0025 7.79371 10.439C7.88053 10.8754 8.09482 11.2764 8.40949 11.591C8.72416 11.9057 9.12507 12.12 9.56152 12.2068C9.99798 12.2936 10.4504 12.2491 10.8615 12.0788C11.2726 11.9085 11.6241 11.6201 11.8713 11.2501C12.1185 10.8801 12.2505 10.445 12.2505 10C12.2498 9.4035 12.0125 8.83159 11.5907 8.40978C11.1689 7.98797 10.597 7.7507 10.0005 7.75003ZM10.0005 11.75C9.65436 11.75 9.31602 11.6474 9.02823 11.4551C8.74044 11.2628 8.51614 10.9895 8.38369 10.6697C8.25123 10.35 8.21658 9.99809 8.2841 9.65862C8.35163 9.31915 8.5183 9.00733 8.76304 8.76259C9.00778 8.51785 9.3196 8.35118 9.65907 8.28365C9.99854 8.21613 10.3504 8.25079 10.6702 8.38324C10.9899 8.51569 11.2633 8.74 11.4555 9.02778C11.6478 9.31557 11.7505 9.65391 11.7505 10C11.75 10.464 11.5654 10.9088 11.2373 11.2369C10.9093 11.565 10.4644 11.7495 10.0005 11.75ZM6.08434 8.34582C5.75482 9.12487 5.66548 9.98458 5.82777 10.8147C5.99006 11.6449 6.39658 12.4077 6.99523 13.0052C7.01844 13.0285 7.03686 13.056 7.04942 13.0863C7.06198 13.1167 7.06845 13.1492 7.06845 13.182C7.06845 13.2148 7.06199 13.2473 7.04943 13.2777C7.03687 13.308 7.01845 13.3356 6.99524 13.3588C6.97203 13.382 6.94447 13.4004 6.91414 13.413C6.88381 13.4255 6.85131 13.432 6.81848 13.432C6.78565 13.432 6.75314 13.4255 6.72281 13.413C6.69248 13.4004 6.66493 13.382 6.64171 13.3588C6.20019 12.918 5.84991 12.3944 5.61093 11.8181C5.37194 11.2417 5.24892 10.6239 5.24892 10C5.24892 9.37611 5.37194 8.75832 5.61093 8.18198C5.84991 7.60565 6.20019 7.0821 6.64171 6.64127C6.68859 6.59439 6.75218 6.56805 6.81848 6.56805C6.88478 6.56806 6.94836 6.5944 6.99524 6.64128C7.04212 6.68816 7.06846 6.75175 7.06845 6.81805C7.06845 6.88435 7.04211 6.94793 6.99523 6.99481C6.60706 7.38198 6.29771 7.8408 6.08434 8.34582ZM14.7505 10C14.7512 10.6239 14.6287 11.2418 14.39 11.8182C14.1512 12.3946 13.8009 12.9182 13.3592 13.3588C13.336 13.382 13.3085 13.4004 13.2781 13.413C13.2478 13.4255 13.2153 13.432 13.1825 13.432C13.1496 13.432 13.1171 13.4255 13.0868 13.413C13.0565 13.4004 13.0289 13.382 13.0057 13.3588C12.9825 13.3356 12.9641 13.308 12.9515 13.2777C12.939 13.2473 12.9325 13.2148 12.9325 13.182C12.9325 13.1492 12.939 13.1167 12.9515 13.0863C12.9641 13.056 12.9825 13.0285 13.0057 13.0052C13.4008 12.6108 13.7143 12.1424 13.9281 11.6267C14.142 11.1111 14.2521 10.5583 14.2521 10C14.2521 9.44177 14.142 8.88899 13.9281 8.37332C13.7143 7.85765 13.4008 7.38921 13.0057 6.99481C12.9825 6.9716 12.9641 6.94404 12.9515 6.91371C12.939 6.88338 12.9325 6.85088 12.9325 6.81805C12.9325 6.78522 12.939 6.75271 12.9515 6.72238C12.9641 6.69205 12.9825 6.66449 13.0057 6.64128C13.0289 6.61807 13.0565 6.59965 13.0868 6.58709C13.1171 6.57452 13.1496 6.56806 13.1825 6.56805C13.2153 6.56805 13.2478 6.57452 13.2781 6.58708C13.3085 6.59964 13.336 6.61805 13.3592 6.64127C13.8009 7.08189 14.1512 7.60545 14.39 8.18185C14.6287 8.75825 14.7512 9.37614 14.7505 10ZM5.22747 14.773C5.25068 14.7962 5.2691 14.8238 5.28166 14.8541C5.29422 14.8844 5.30069 14.9169 5.30069 14.9498C5.30069 14.9826 5.29423 15.0151 5.28167 15.0454C5.26911 15.0758 5.25069 15.1033 5.22748 15.1265C5.20427 15.1498 5.17671 15.1682 5.14638 15.1807C5.11605 15.1933 5.08355 15.1998 5.05072 15.1998C5.01789 15.1998 4.98538 15.1933 4.95505 15.1807C4.92472 15.1682 4.89717 15.1498 4.87395 15.1266C4.20003 14.4537 3.66538 13.6546 3.3006 12.7749C2.93581 11.8953 2.74805 10.9523 2.74805 10C2.74805 9.04773 2.93581 8.10477 3.3006 7.22511C3.66538 6.34545 4.20003 5.54634 4.87395 4.8735C4.92083 4.82663 4.98442 4.80029 5.05072 4.80029C5.11702 4.8003 5.1806 4.82664 5.22748 4.87352C5.27436 4.9204 5.3007 4.98399 5.30069 5.05029C5.30069 5.11659 5.27435 5.18017 5.22747 5.22705C4.59997 5.85345 4.10215 6.59744 3.76249 7.41645C3.42283 8.23545 3.248 9.11339 3.248 10C3.248 10.8867 3.42283 11.7646 3.76249 12.5836C4.10215 13.4026 4.59997 14.1466 5.22747 14.773ZM17.2505 10C17.2517 10.9523 17.0647 11.8954 16.7002 12.7752C16.3358 13.6549 15.8012 14.454 15.127 15.1266C15.0801 15.1734 15.0165 15.1998 14.9502 15.1998C14.8839 15.1998 14.8204 15.1734 14.7735 15.1265C14.7266 15.0797 14.7003 15.0161 14.7003 14.9498C14.7003 14.8835 14.7266 14.8199 14.7735 14.773C15.401 14.1466 15.8988 13.4026 16.2385 12.5836C16.5781 11.7646 16.753 10.8867 16.753 10C16.753 9.11339 16.5781 8.23545 16.2385 7.41645C15.8988 6.59744 15.401 5.85345 14.7735 5.22705C14.7266 5.18017 14.7003 5.11659 14.7003 5.05029C14.7003 4.98399 14.7266 4.9204 14.7735 4.87352C14.8204 4.82664 14.8839 4.8003 14.9502 4.80029C15.0165 4.80029 15.0801 4.82663 15.127 4.8735C15.8012 5.54603 16.3358 6.34513 16.7002 7.2249C17.0646 8.10467 17.2516 9.04777 17.2505 10Z"
                     fill="white"
                     stroke="white"
-                    strokeWidth="0.2"
+                    stroke-width="0.2"
                   ></path>
                 </svg>
               </div>
-              <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
-                <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
+              <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
+                <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
                     Talent academy
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Latest data received 2 hours ago
               </p>
             </div>
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Data Quality
               </p>
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 3/5
               </p>
             </div>
           </div>
-          <div className="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <div className="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 relative gap-1.5 py-[7px]">
-                <p className="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
+          <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <div class="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 relative gap-1.5 py-[7px]">
+                <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
                   3 Subscribers
                 </p>
               </div>
             </div>
-            <div className="flex justify-end items-center flex-grow relative gap-2.5">
-              <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
-                <p className="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
+            <div class="flex justify-end items-center flex-grow relative gap-2.5">
+              <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
+                <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
                   Published
                 </p>
               </div>
@@ -476,7 +476,7 @@ const Home = (props) => {
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
+                class="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
                 preserveAspectRatio="xMidYMid meet"
               >
                 <path
@@ -488,13 +488,13 @@ const Home = (props) => {
           </div>
         </div>
         <div
-          className="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[428px] top-[473px] overflow-hidden bg-white border border-gray-200"
+          class="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[428px] top-[473px] overflow-hidden bg-white border border-gray-200"
           style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
-            <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
-                <p className="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
+            <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
+                <p class="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
                   Individual Learner Records
                 </p>
                 <svg
@@ -503,60 +503,60 @@ const Home = (props) => {
                   viewBox="0 0 20 20"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="flex-grow-0 flex-shrink-0 w-5 h-5"
+                  class="flex-grow-0 flex-shrink-0 w-5 h-5"
                   preserveAspectRatio="none"
                 >
                   <circle cx="10" cy="10" r="10" fill="#4EBF8D"></circle>
                   <path
-                    d="M9.99999 7.75003C9.55498 7.75003 9.11997 7.88199 8.74996 8.12922C8.37995 8.37646 8.09156 8.72786 7.92126 9.13899C7.75096 9.55013 7.7064 10.0025 7.79322 10.439C7.88004 10.8754 8.09433 11.2764 8.409 11.591C8.72367 11.9057 9.12458 12.12 9.56104 12.2068C9.99749 12.2936 10.4499 12.2491 10.861 12.0788C11.2722 11.9085 11.6236 11.6201 11.8708 11.2501C12.118 10.8801 12.25 10.445 12.25 10C12.2493 9.4035 12.012 8.83159 11.5902 8.40978C11.1684 7.98797 10.5965 7.7507 9.99999 7.75003ZM9.99999 11.75C9.65387 11.75 9.31553 11.6474 9.02774 11.4551C8.73995 11.2628 8.51565 10.9895 8.3832 10.6697C8.25075 10.35 8.21609 9.99809 8.28361 9.65862C8.35114 9.31915 8.51781 9.00733 8.76255 8.76259C9.00729 8.51785 9.31911 8.35118 9.65858 8.28365C9.99805 8.21613 10.3499 8.25079 10.6697 8.38324C10.9895 8.51569 11.2628 8.74 11.4551 9.02778C11.6474 9.31557 11.75 9.65391 11.75 10C11.7495 10.464 11.5649 10.9088 11.2369 11.2369C10.9088 11.565 10.464 11.7495 9.99999 11.75ZM6.08385 8.34582C5.75433 9.12487 5.66499 9.98458 5.82728 10.8147C5.98957 11.6449 6.39609 12.4077 6.99474 13.0052C7.01795 13.0285 7.03637 13.056 7.04893 13.0863C7.0615 13.1167 7.06796 13.1492 7.06796 13.182C7.06797 13.2148 7.0615 13.2473 7.04894 13.2777C7.03638 13.308 7.01797 13.3356 6.99475 13.3588C6.97154 13.382 6.94398 13.4004 6.91366 13.413C6.88333 13.4255 6.85082 13.432 6.81799 13.432C6.78516 13.432 6.75266 13.4255 6.72233 13.413C6.692 13.4004 6.66444 13.382 6.64122 13.3588C6.1997 12.918 5.84943 12.3944 5.61044 11.8181C5.37145 11.2417 5.24843 10.6239 5.24843 10C5.24843 9.37611 5.37145 8.75832 5.61044 8.18198C5.84943 7.60565 6.1997 7.0821 6.64122 6.64127C6.68811 6.59439 6.75169 6.56805 6.81799 6.56805C6.88429 6.56806 6.94787 6.5944 6.99475 6.64128C7.04163 6.68816 7.06797 6.75175 7.06796 6.81805C7.06796 6.88435 7.04162 6.94793 6.99474 6.99481C6.60657 7.38198 6.29722 7.8408 6.08385 8.34582ZM14.75 10C14.7507 10.6239 14.6282 11.2418 14.3895 11.8182C14.1507 12.3946 13.8004 12.9182 13.3588 13.3588C13.3355 13.382 13.308 13.4004 13.2777 13.413C13.2473 13.4255 13.2148 13.432 13.182 13.432C13.1492 13.432 13.1167 13.4255 13.0863 13.413C13.056 13.4004 13.0284 13.382 13.0052 13.3588C12.982 13.3356 12.9636 13.308 12.951 13.2777C12.9385 13.2473 12.932 13.2148 12.932 13.182C12.932 13.1492 12.9385 13.1167 12.951 13.0863C12.9636 13.056 12.982 13.0285 13.0052 13.0052C13.4003 12.6108 13.7138 12.1424 13.9276 11.6267C14.1415 11.1111 14.2516 10.5583 14.2516 10C14.2516 9.44177 14.1415 8.88899 13.9276 8.37332C13.7138 7.85765 13.4003 7.38921 13.0052 6.99481C12.982 6.9716 12.9636 6.94404 12.951 6.91371C12.9385 6.88338 12.932 6.85088 12.932 6.81805C12.932 6.78522 12.9385 6.75271 12.951 6.72238C12.9636 6.69205 12.982 6.66449 13.0052 6.64128C13.0284 6.61807 13.056 6.59965 13.0863 6.58709C13.1167 6.57452 13.1492 6.56806 13.182 6.56805C13.2148 6.56805 13.2473 6.57452 13.2777 6.58708C13.308 6.59964 13.3355 6.61805 13.3588 6.64127C13.8004 7.08189 14.1507 7.60545 14.3895 8.18185C14.6282 8.75825 14.7507 9.37614 14.75 10ZM5.22698 14.773C5.25019 14.7962 5.26861 14.8238 5.28117 14.8541C5.29374 14.8844 5.3002 14.9169 5.3002 14.9498C5.30021 14.9826 5.29374 15.0151 5.28118 15.0454C5.26862 15.0758 5.25021 15.1033 5.22699 15.1265C5.20378 15.1498 5.17622 15.1682 5.1459 15.1807C5.11557 15.1933 5.08306 15.1998 5.05023 15.1998C5.0174 15.1998 4.9849 15.1933 4.95457 15.1807C4.92424 15.1682 4.89668 15.1498 4.87346 15.1266C4.19954 14.4537 3.66489 13.6546 3.30011 12.7749C2.93532 11.8953 2.74756 10.9523 2.74756 10C2.74756 9.04773 2.93532 8.10477 3.30011 7.22511C3.66489 6.34545 4.19954 5.54634 4.87346 4.8735C4.92035 4.82663 4.98393 4.80029 5.05023 4.80029C5.11653 4.8003 5.18011 4.82664 5.22699 4.87352C5.27387 4.9204 5.30021 4.98399 5.3002 5.05029C5.3002 5.11659 5.27386 5.18017 5.22698 5.22705C4.59948 5.85345 4.10166 6.59744 3.762 7.41645C3.42234 8.23545 3.24751 9.11339 3.24751 10C3.24751 10.8867 3.42234 11.7646 3.762 12.5836C4.10166 13.4026 4.59948 14.1466 5.22698 14.773ZM17.25 10C17.2512 10.9523 17.0642 11.8954 16.6998 12.7752C16.3353 13.6549 15.8007 14.454 15.1265 15.1266C15.0796 15.1734 15.016 15.1998 14.9497 15.1998C14.8834 15.1998 14.8199 15.1734 14.773 15.1265C14.7261 15.0797 14.6998 15.0161 14.6998 14.9498C14.6998 14.8835 14.7261 14.8199 14.773 14.773C15.4005 14.1466 15.8983 13.4026 16.238 12.5836C16.5776 11.7646 16.7525 10.8867 16.7525 10C16.7525 9.11339 16.5776 8.23545 16.238 7.41645C15.8983 6.59744 15.4005 5.85345 14.773 5.22705C14.7261 5.18017 14.6998 5.11659 14.6998 5.05029C14.6998 4.98399 14.7261 4.9204 14.773 4.87352C14.8199 4.82664 14.8834 4.8003 14.9497 4.80029C15.016 4.80029 15.0796 4.82663 15.1265 4.8735C15.8007 5.54603 16.3353 6.34513 16.6997 7.2249C17.0642 8.10467 17.2512 9.04777 17.25 10Z"
+                    d="M10.0005 7.75003C9.55547 7.75003 9.12045 7.88199 8.75044 8.12922C8.38043 8.37646 8.09205 8.72786 7.92175 9.13899C7.75145 9.55013 7.70689 10.0025 7.79371 10.439C7.88053 10.8754 8.09482 11.2764 8.40949 11.591C8.72416 11.9057 9.12507 12.12 9.56152 12.2068C9.99798 12.2936 10.4504 12.2491 10.8615 12.0788C11.2726 11.9085 11.6241 11.6201 11.8713 11.2501C12.1185 10.8801 12.2505 10.445 12.2505 10C12.2498 9.4035 12.0125 8.83159 11.5907 8.40978C11.1689 7.98797 10.597 7.7507 10.0005 7.75003ZM10.0005 11.75C9.65436 11.75 9.31602 11.6474 9.02823 11.4551C8.74044 11.2628 8.51614 10.9895 8.38369 10.6697C8.25123 10.35 8.21658 9.99809 8.2841 9.65862C8.35163 9.31915 8.5183 9.00733 8.76304 8.76259C9.00778 8.51785 9.3196 8.35118 9.65907 8.28365C9.99854 8.21613 10.3504 8.25079 10.6702 8.38324C10.9899 8.51569 11.2633 8.74 11.4555 9.02778C11.6478 9.31557 11.7505 9.65391 11.7505 10C11.75 10.464 11.5654 10.9088 11.2373 11.2369C10.9093 11.565 10.4644 11.7495 10.0005 11.75ZM6.08434 8.34582C5.75482 9.12487 5.66548 9.98458 5.82777 10.8147C5.99006 11.6449 6.39658 12.4077 6.99523 13.0052C7.01844 13.0285 7.03686 13.056 7.04942 13.0863C7.06198 13.1167 7.06845 13.1492 7.06845 13.182C7.06845 13.2148 7.06199 13.2473 7.04943 13.2777C7.03687 13.308 7.01845 13.3356 6.99524 13.3588C6.97203 13.382 6.94447 13.4004 6.91414 13.413C6.88381 13.4255 6.85131 13.432 6.81848 13.432C6.78565 13.432 6.75314 13.4255 6.72281 13.413C6.69248 13.4004 6.66493 13.382 6.64171 13.3588C6.20019 12.918 5.84991 12.3944 5.61093 11.8181C5.37194 11.2417 5.24892 10.6239 5.24892 10C5.24892 9.37611 5.37194 8.75832 5.61093 8.18198C5.84991 7.60565 6.20019 7.0821 6.64171 6.64127C6.68859 6.59439 6.75218 6.56805 6.81848 6.56805C6.88478 6.56806 6.94836 6.5944 6.99524 6.64128C7.04212 6.68816 7.06846 6.75175 7.06845 6.81805C7.06845 6.88435 7.04211 6.94793 6.99523 6.99481C6.60706 7.38198 6.29771 7.8408 6.08434 8.34582ZM14.7505 10C14.7512 10.6239 14.6287 11.2418 14.39 11.8182C14.1512 12.3946 13.8009 12.9182 13.3592 13.3588C13.336 13.382 13.3085 13.4004 13.2781 13.413C13.2478 13.4255 13.2153 13.432 13.1825 13.432C13.1496 13.432 13.1171 13.4255 13.0868 13.413C13.0565 13.4004 13.0289 13.382 13.0057 13.3588C12.9825 13.3356 12.9641 13.308 12.9515 13.2777C12.939 13.2473 12.9325 13.2148 12.9325 13.182C12.9325 13.1492 12.939 13.1167 12.9515 13.0863C12.9641 13.056 12.9825 13.0285 13.0057 13.0052C13.4008 12.6108 13.7143 12.1424 13.9281 11.6267C14.142 11.1111 14.2521 10.5583 14.2521 10C14.2521 9.44177 14.142 8.88899 13.9281 8.37332C13.7143 7.85765 13.4008 7.38921 13.0057 6.99481C12.9825 6.9716 12.9641 6.94404 12.9515 6.91371C12.939 6.88338 12.9325 6.85088 12.9325 6.81805C12.9325 6.78522 12.939 6.75271 12.9515 6.72238C12.9641 6.69205 12.9825 6.66449 13.0057 6.64128C13.0289 6.61807 13.0565 6.59965 13.0868 6.58709C13.1171 6.57452 13.1496 6.56806 13.1825 6.56805C13.2153 6.56805 13.2478 6.57452 13.2781 6.58708C13.3085 6.59964 13.336 6.61805 13.3592 6.64127C13.8009 7.08189 14.1512 7.60545 14.39 8.18185C14.6287 8.75825 14.7512 9.37614 14.7505 10ZM5.22747 14.773C5.25068 14.7962 5.2691 14.8238 5.28166 14.8541C5.29422 14.8844 5.30069 14.9169 5.30069 14.9498C5.30069 14.9826 5.29423 15.0151 5.28167 15.0454C5.26911 15.0758 5.25069 15.1033 5.22748 15.1265C5.20427 15.1498 5.17671 15.1682 5.14638 15.1807C5.11605 15.1933 5.08355 15.1998 5.05072 15.1998C5.01789 15.1998 4.98538 15.1933 4.95505 15.1807C4.92472 15.1682 4.89717 15.1498 4.87395 15.1266C4.20003 14.4537 3.66538 13.6546 3.3006 12.7749C2.93581 11.8953 2.74805 10.9523 2.74805 10C2.74805 9.04773 2.93581 8.10477 3.3006 7.22511C3.66538 6.34545 4.20003 5.54634 4.87395 4.8735C4.92083 4.82663 4.98442 4.80029 5.05072 4.80029C5.11702 4.8003 5.1806 4.82664 5.22748 4.87352C5.27436 4.9204 5.3007 4.98399 5.30069 5.05029C5.30069 5.11659 5.27435 5.18017 5.22747 5.22705C4.59997 5.85345 4.10215 6.59744 3.76249 7.41645C3.42283 8.23545 3.248 9.11339 3.248 10C3.248 10.8867 3.42283 11.7646 3.76249 12.5836C4.10215 13.4026 4.59997 14.1466 5.22747 14.773ZM17.2505 10C17.2517 10.9523 17.0647 11.8954 16.7002 12.7752C16.3358 13.6549 15.8012 14.454 15.127 15.1266C15.0801 15.1734 15.0165 15.1998 14.9502 15.1998C14.8839 15.1998 14.8204 15.1734 14.7735 15.1265C14.7266 15.0797 14.7003 15.0161 14.7003 14.9498C14.7003 14.8835 14.7266 14.8199 14.7735 14.773C15.401 14.1466 15.8988 13.4026 16.2385 12.5836C16.5781 11.7646 16.753 10.8867 16.753 10C16.753 9.11339 16.5781 8.23545 16.2385 7.41645C15.8988 6.59744 15.401 5.85345 14.7735 5.22705C14.7266 5.18017 14.7003 5.11659 14.7003 5.05029C14.7003 4.98399 14.7266 4.9204 14.7735 4.87352C14.8204 4.82664 14.8839 4.8003 14.9502 4.80029C15.0165 4.80029 15.0801 4.82663 15.127 4.8735C15.8012 5.54603 16.3358 6.34513 16.7002 7.2249C17.0646 8.10467 17.2516 9.04777 17.2505 10Z"
                     fill="white"
                     stroke="white"
-                    strokeWidth="0.2"
+                    stroke-width="0.2"
                   ></path>
                 </svg>
               </div>
-              <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
-                <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
+              <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
+                <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
                     Media
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Latest data received 2 hours ago
               </p>
             </div>
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Data Quality
               </p>
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 3/5
               </p>
             </div>
           </div>
-          <div className="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <div className="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 gap-1.5 py-[7px]">
-                <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
+          <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <div class="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 gap-1.5 py-[7px]">
+                <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
                     Subscribed
                   </p>
                 </div>
               </div>
             </div>
-            <div className="flex justify-end items-center flex-grow relative gap-2.5">
+            <div class="flex justify-end items-center flex-grow relative gap-2.5">
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
+                class="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
                 preserveAspectRatio="xMidYMid meet"
               >
                 <path
@@ -568,91 +568,91 @@ const Home = (props) => {
           </div>
         </div>
         <div
-          className="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[764px] top-[473px] overflow-hidden bg-white border border-gray-200"
+          class="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[764px] top-[473px] overflow-hidden bg-white border border-gray-200"
           style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
-            <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
-                <p className="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
+            <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
+                <p class="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
                   Individual Learner Records
                 </p>
-                <div className="flex-grow-0 flex-shrink-0 w-5 h-5">
+                <div class="flex-grow-0 flex-shrink-0 w-5 h-5">
                   <svg
                     width="20"
                     height="20"
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute left-[279.61px] top-[-0.39px]"
+                    class="absolute left-[279.61px] top-[-0.39px]"
                     preserveAspectRatio="xMidYMid meet"
                   >
                     <circle cx="10" cy="10" r="10" fill="#F27A75"></circle>
                   </svg>
-                  <div className="flex flex-col justify-center items-center w-[19px] h-[18px] absolute left-[280.68px] top-[0.68px] gap-[3.954232931137085px]">
-                    <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.954232931137085px] p-[1.9771164655685425px]">
+                  <div class="flex flex-col justify-center items-center w-[19px] h-[18px] absolute left-[280.68px] top-[0.68px] gap-[3.954232931137085px]">
+                    <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.954232931137085px] p-[1.9771164655685425px]">
                       <svg
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="flex-grow-0 flex-shrink-0"
+                        class="flex-grow-0 flex-shrink-0"
                         preserveAspectRatio="none"
                       >
                         <path
                           d="M8.17982 0.261597C6.71343 0.261597 5.27997 0.696431 4.06071 1.51111C2.84146 2.32579 1.89116 3.48373 1.33 4.8385C0.768837 6.19326 0.622012 7.68401 0.90809 9.12222C1.19417 10.5604 1.9003 11.8815 2.93719 12.9184C3.97409 13.9553 5.29517 14.6614 6.73338 14.9475C8.17159 15.2336 9.66234 15.0868 11.0171 14.5256C12.3719 13.9644 13.5298 13.0141 14.3445 11.7949C15.1592 10.5756 15.594 9.14217 15.594 7.67578C15.5918 5.7101 14.8099 3.82556 13.42 2.43561C12.03 1.04566 10.1455 0.263814 8.17982 0.261597V0.261597ZM8.17982 14.4968C6.83074 14.4968 5.51196 14.0968 4.39024 13.3473C3.26853 12.5978 2.39425 11.5325 1.87798 10.2861C1.36172 9.0397 1.22664 7.66822 1.48983 6.34506C1.75302 5.02191 2.40266 3.80651 3.3566 2.85257C4.31054 1.89863 5.52594 1.24899 6.84909 0.985796C8.17225 0.722605 9.54373 0.857684 10.7901 1.37395C12.0365 1.89022 13.1018 2.76449 13.8513 3.88621C14.6008 5.00793 15.0009 6.32671 15.0009 7.67578C14.9988 9.48421 14.2795 11.218 13.0008 12.4967C11.722 13.7755 9.98824 14.4948 8.17982 14.4968ZM7.88325 8.26892V4.11697C7.88325 4.03832 7.91449 3.96289 7.97011 3.90727C8.02573 3.85165 8.10116 3.82041 8.17982 3.82041C8.25847 3.82041 8.3339 3.85165 8.38952 3.90727C8.44514 3.96289 8.47638 4.03832 8.47638 4.11697V8.26892C8.47638 8.34757 8.44514 8.42301 8.38952 8.47862C8.3339 8.53424 8.25847 8.56549 8.17982 8.56549C8.10116 8.56549 8.02573 8.53424 7.97011 8.47862C7.91449 8.42301 7.88325 8.34757 7.88325 8.26892ZM8.77295 10.938C8.77295 11.0553 8.73816 11.17 8.67299 11.2676C8.60781 11.3651 8.51518 11.4411 8.4068 11.486C8.29842 11.5309 8.17916 11.5426 8.0641 11.5198C7.94904 11.4969 7.84336 11.4404 7.76041 11.3574C7.67745 11.2745 7.62096 11.1688 7.59808 11.0537C7.57519 10.9387 7.58694 10.8194 7.63183 10.711C7.67672 10.6027 7.75275 10.51 7.85029 10.4449C7.94783 10.3797 8.0625 10.3449 8.17982 10.3449C8.33707 10.3451 8.48783 10.4076 8.59903 10.5188C8.71022 10.63 8.77277 10.7808 8.77295 10.938V10.938Z"
                           fill="white"
                           stroke="white"
-                          strokeWidth="0.2"
+                          stroke-width="0.2"
                         ></path>
                       </svg>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
-                <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
+              <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
+                <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
                     Tourism
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Latest data received yesterday 12:34
               </p>
             </div>
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Data Quality
               </p>
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 3/5
               </p>
             </div>
           </div>
-          <div className="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <div className="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 gap-1.5 py-[7px]">
-                <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
+          <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <div class="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 gap-1.5 py-[7px]">
+                <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
                     Subscribed
                   </p>
                 </div>
               </div>
             </div>
-            <div className="flex justify-end items-center flex-grow relative gap-2.5">
+            <div class="flex justify-end items-center flex-grow relative gap-2.5">
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
+                class="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
                 preserveAspectRatio="xMidYMid meet"
               >
                 <path
@@ -664,91 +664,91 @@ const Home = (props) => {
           </div>
         </div>
         <div
-          className="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[1100px] top-[473px] overflow-hidden bg-white border border-gray-200"
+          class="flex flex-col justify-start items-start w-80 h-[190px] absolute left-[1100px] top-[473px] overflow-hidden bg-white border border-gray-200"
           style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
-            <div className="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
-                <p className="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-between items-start self-stretch flex-grow overflow-hidden p-2.5">
+            <div class="flex flex-col justify-start items-start self-stretch flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-2.5">
+                <p class="flex-grow-0 flex-shrink-0 w-[270px] text-sm text-left text-[#1e1b19]">
                   Individual Learner Records
                 </p>
-                <div className="flex-grow-0 flex-shrink-0 w-5 h-5">
+                <div class="flex-grow-0 flex-shrink-0 w-5 h-5">
                   <svg
                     width="20"
                     height="20"
                     viewBox="0 0 20 20"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="absolute left-[279.61px] top-[-0.39px]"
+                    class="absolute left-[279.61px] top-[-0.39px]"
                     preserveAspectRatio="xMidYMid meet"
                   >
-                    <circle cx="10" cy="10" r="10" fill="#F27A75"></circle>
+                    <circle cx="10" cy="10" r="10" fill="#4EBF8D"></circle>
                   </svg>
-                  <div className="flex flex-col justify-center items-center w-[19px] h-[18px] absolute left-[280.68px] top-[0.68px] gap-[3.954232931137085px]">
-                    <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.954232931137085px] p-[1.9771164655685425px]">
+                  <div class="flex flex-col justify-center items-center w-[19px] h-[18px] absolute left-[280.68px] top-[0.68px] gap-[3.954232931137085px]">
+                    <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.954232931137085px] p-[1.9771164655685425px]">
                       <svg
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        className="flex-grow-0 flex-shrink-0"
+                        class="flex-grow-0 flex-shrink-0"
                         preserveAspectRatio="none"
                       >
                         <path
                           d="M8.17982 0.261597C6.71343 0.261597 5.27997 0.696431 4.06071 1.51111C2.84146 2.32579 1.89116 3.48373 1.33 4.8385C0.768837 6.19326 0.622012 7.68401 0.90809 9.12222C1.19417 10.5604 1.9003 11.8815 2.93719 12.9184C3.97409 13.9553 5.29517 14.6614 6.73338 14.9475C8.17159 15.2336 9.66234 15.0868 11.0171 14.5256C12.3719 13.9644 13.5298 13.0141 14.3445 11.7949C15.1592 10.5756 15.594 9.14217 15.594 7.67578C15.5918 5.7101 14.8099 3.82556 13.42 2.43561C12.03 1.04566 10.1455 0.263814 8.17982 0.261597V0.261597ZM8.17982 14.4968C6.83074 14.4968 5.51196 14.0968 4.39024 13.3473C3.26853 12.5978 2.39425 11.5325 1.87798 10.2861C1.36172 9.0397 1.22664 7.66822 1.48983 6.34506C1.75302 5.02191 2.40266 3.80651 3.3566 2.85257C4.31054 1.89863 5.52594 1.24899 6.84909 0.985796C8.17225 0.722605 9.54373 0.857684 10.7901 1.37395C12.0365 1.89022 13.1018 2.76449 13.8513 3.88621C14.6008 5.00793 15.0009 6.32671 15.0009 7.67578C14.9988 9.48421 14.2795 11.218 13.0008 12.4967C11.722 13.7755 9.98824 14.4948 8.17982 14.4968ZM7.88325 8.26892V4.11697C7.88325 4.03832 7.91449 3.96289 7.97011 3.90727C8.02573 3.85165 8.10116 3.82041 8.17982 3.82041C8.25847 3.82041 8.3339 3.85165 8.38952 3.90727C8.44514 3.96289 8.47638 4.03832 8.47638 4.11697V8.26892C8.47638 8.34757 8.44514 8.42301 8.38952 8.47862C8.3339 8.53424 8.25847 8.56549 8.17982 8.56549C8.10116 8.56549 8.02573 8.53424 7.97011 8.47862C7.91449 8.42301 7.88325 8.34757 7.88325 8.26892ZM8.77295 10.938C8.77295 11.0553 8.73816 11.17 8.67299 11.2676C8.60781 11.3651 8.51518 11.4411 8.4068 11.486C8.29842 11.5309 8.17916 11.5426 8.0641 11.5198C7.94904 11.4969 7.84336 11.4404 7.76041 11.3574C7.67745 11.2745 7.62096 11.1688 7.59808 11.0537C7.57519 10.9387 7.58694 10.8194 7.63183 10.711C7.67672 10.6027 7.75275 10.51 7.85029 10.4449C7.94783 10.3797 8.0625 10.3449 8.17982 10.3449C8.33707 10.3451 8.48783 10.4076 8.59903 10.5188C8.71022 10.63 8.77277 10.7808 8.77295 10.938V10.938Z"
                           fill="white"
                           stroke="white"
-                          strokeWidth="0.2"
+                          stroke-width="0.2"
                         ></path>
                       </svg>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
-                <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
-                    Tourism
+              <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 gap-2.5">
+                <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 h-6 relative gap-1 px-2 rounded-[3px] bg-[#cce5ff]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-left text-[#1e1b19]">
+                    Design &#x26; Construction
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start flex-grow-0 flex-shrink-0 w-80 overflow-hidden px-2.5 py-1">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Latest data received yesterday 12:34
               </p>
             </div>
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-[5px]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 Data Quality
               </p>
-              <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
                 3/5
               </p>
             </div>
           </div>
-          <div className="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <div className="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
-              <div className="flex justify-start items-start flex-grow-0 flex-shrink-0 gap-1.5 py-[7px]">
-                <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
-                  <p className="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
+          <div class="flex justify-start items-center self-stretch flex-grow-0 flex-shrink-0 overflow-hidden p-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <div class="flex justify-end items-center flex-grow-0 flex-shrink-0 gap-2.5">
+              <div class="flex justify-start items-start flex-grow-0 flex-shrink-0 gap-1.5 py-[7px]">
+                <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative px-2.5 py-0.5 rounded-[3px] bg-[#e6e2da]">
+                  <p class="flex-grow-0 flex-shrink-0 text-xs text-center text-[#1e1b19]">
                     Subscribed
                   </p>
                 </div>
               </div>
             </div>
-            <div className="flex justify-end items-center flex-grow relative gap-2.5">
+            <div class="flex justify-end items-center flex-grow relative gap-2.5">
               <svg
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
+                class="flex-grow-0 flex-shrink-0 w-6 h-6 relative"
                 preserveAspectRatio="xMidYMid meet"
               >
                 <path
@@ -759,23 +759,23 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-start w-[1185px] absolute left-[235px] top-[671px]">
-          <p className="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
+        <div class="flex justify-end items-start w-[1185px] absolute left-[235px] top-[671px]">
+          <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
             Show All
           </p>
-          <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-[3.7113523483276367px]">
-            <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.7113523483276367px] px-[2.5979466438293457px] py-[3.7113523483276367px]">
+          <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-[3.7113523483276367px]">
+            <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.7113523483276367px] px-[2.5979466438293457px] py-[3.7113523483276367px]">
               <svg
                 width="14"
                 height="12"
                 viewBox="0 0 14 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0"
+                class="flex-grow-0 flex-shrink-0"
                 preserveAspectRatio="none"
               >
                 <path
-                  d="M13.3208 6.19675L8.31044 11.2071C8.25824 11.2593 8.18745 11.2886 8.11363 11.2886C8.03982 11.2886 7.96903 11.2593 7.91683 11.2071C7.86463 11.1549 7.83531 11.0841 7.83531 11.0103C7.83531 10.9365 7.86463 10.8657 7.91683 10.8135L12.452 6.2783H0.876496C0.802673 6.2783 0.731873 6.24898 0.679672 6.19678C0.627471 6.14457 0.598145 6.07377 0.598145 5.99995C0.598145 5.92613 0.627471 5.85533 0.679672 5.80313C0.731873 5.75093 0.802673 5.7216 0.876496 5.7216H12.452L7.91683 1.18643C7.86463 1.13423 7.83531 1.06344 7.83531 0.989625C7.83531 0.91581 7.86463 0.845018 7.91683 0.792822C7.96903 0.740627 8.03982 0.711304 8.11363 0.711304C8.18745 0.711304 8.25824 0.740627 8.31044 0.792822L13.3208 5.80315C13.3466 5.82899 13.3671 5.85967 13.3811 5.89344C13.3951 5.9272 13.4023 5.9634 13.4023 5.99995C13.4023 6.0365 13.3951 6.0727 13.3811 6.10647C13.3671 6.14023 13.3466 6.17091 13.3208 6.19675V6.19675Z"
+                  d="M13.3203 6.19675L8.30995 11.2071C8.25775 11.2593 8.18696 11.2886 8.11314 11.2886C8.03933 11.2886 7.96854 11.2593 7.91634 11.2071C7.86415 11.1549 7.83482 11.0841 7.83482 11.0103C7.83482 10.9365 7.86415 10.8657 7.91634 10.8135L12.4515 6.2783H0.876008C0.802184 6.2783 0.731385 6.24898 0.679184 6.19678C0.626983 6.14457 0.597656 6.07377 0.597656 5.99995C0.597656 5.92613 0.626983 5.85533 0.679184 5.80313C0.731385 5.75093 0.802184 5.7216 0.876008 5.7216H12.4515L7.91634 1.18643C7.86415 1.13423 7.83482 1.06344 7.83482 0.989625C7.83482 0.91581 7.86415 0.845018 7.91634 0.792822C7.96854 0.740627 8.03933 0.711304 8.11314 0.711304C8.18696 0.711304 8.25775 0.740627 8.30995 0.792822L13.3203 5.80315C13.3461 5.82899 13.3666 5.85967 13.3806 5.89344C13.3946 5.9272 13.4018 5.9634 13.4018 5.99995C13.4018 6.0365 13.3946 6.0727 13.3806 6.10647C13.3666 6.14023 13.3461 6.17091 13.3203 6.19675V6.19675Z"
                   fill="black"
                 ></path>
               </svg>
@@ -783,139 +783,139 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="w-[1328px] h-[179px]">
-        <p className="absolute left-[92px] top-[715px] text-base text-left text-black">
+      <div class="w-[1328px] h-[179px]">
+        <p class="absolute left-[92px] top-[715px] text-base text-left text-black">
           Data Sources
         </p>
         <div
-          className="flex flex-col justify-start items-start w-80 absolute left-[92px] top-[748px] overflow-hidden bg-white border border-gray-200"
+          class="flex flex-col justify-start items-start w-80 absolute left-[92px] top-[748px] overflow-hidden bg-white border border-gray-200"
           style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <p className="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
                 Talent Academy CSV
               </p>
             </div>
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <div className="flex-grow-0 flex-shrink-0 w-[18px] h-[18px] relative">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <div class="flex-grow-0 flex-shrink-0 w-[18px] h-[18px] relative">
                 <svg
                   width="18"
                   height="18"
                   viewBox="0 0 18 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute left-[-0.68px] top-[-0.68px]"
+                  class="absolute left-[-0.68px] top-[-0.68px]"
                   preserveAspectRatio="xMidYMid meet"
                 >
                   <circle cx="9" cy="9" r="9" fill="#4EBF8D"></circle>
                 </svg>
-                <div className="flex flex-col justify-center items-center w-[15.94px] h-[15.94px] absolute left-[0.96px] top-[1.03px] gap-[2.960381269454956px]">
-                  <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
+                <div class="flex flex-col justify-center items-center w-[15.94px] h-[15.94px] absolute left-[0.96px] top-[1.03px] gap-[2.960381269454956px]">
+                  <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
                     <svg
                       width="12"
                       height="12"
                       viewBox="0 0 12 12"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-grow-0 flex-shrink-0"
+                      class="flex-grow-0 flex-shrink-0"
                       preserveAspectRatio="none"
                     >
                       <path
-                        d="M9.93118 7.56966L9.93107 5.55042C9.93209 5.17125 9.85789 4.79565 9.71278 4.44534C9.56767 4.09504 9.35452 3.77699 9.08568 3.50961L7.35861 1.78255H9.04291C9.10179 1.78255 9.15827 1.75915 9.1999 1.71751C9.24154 1.67588 9.26493 1.6194 9.26493 1.56052C9.26493 1.50163 9.24154 1.44516 9.1999 1.40352C9.15827 1.36188 9.10179 1.33849 9.04291 1.33849H6.82262C6.80801 1.33852 6.79344 1.33999 6.77912 1.34288C6.77267 1.34416 6.76673 1.34657 6.7605 1.34839C6.75277 1.35034 6.74515 1.3527 6.73768 1.35548C6.73051 1.35877 6.72353 1.36245 6.71675 1.36649C6.71098 1.36963 6.70499 1.37218 6.69946 1.37587C6.67512 1.39215 6.65421 1.41307 6.63794 1.43741C6.63436 1.4428 6.63189 1.44865 6.6288 1.45427C6.62008 1.46767 6.6139 1.48257 6.61056 1.49821C6.60869 1.5045 6.60628 1.51052 6.60498 1.51703C6.60209 1.53135 6.60062 1.54591 6.60059 1.56052V3.7808C6.60059 3.83969 6.62398 3.89616 6.66562 3.9378C6.70726 3.97944 6.76373 4.00283 6.82262 4.00283C6.88151 4.00283 6.93798 3.97944 6.97962 3.9378C7.02126 3.89616 7.04465 3.83969 7.04465 3.7808V2.09651L8.77171 3.82357C8.99919 4.04982 9.17953 4.31894 9.30232 4.61535C9.4251 4.91177 9.48788 5.22958 9.48702 5.55042L9.48713 7.56967C9.03885 7.62615 8.62895 7.85135 8.34086 8.19942C8.05278 8.54748 7.90817 8.99226 7.93647 9.44319C7.96477 9.89413 8.16386 10.3173 8.4932 10.6266C8.82254 10.936 9.25739 11.1081 9.70921 11.1081C10.161 11.1081 10.5959 10.9359 10.9252 10.6266C11.2545 10.3173 11.4536 9.89408 11.4819 9.44314C11.5102 8.9922 11.3656 8.54744 11.0775 8.19938C10.7894 7.85132 10.3795 7.62613 9.93118 7.56966H9.93118ZM9.70915 10.6637C9.44568 10.6637 9.18811 10.5856 8.96904 10.4392C8.74997 10.2928 8.57922 10.0847 8.47839 9.84132C8.37756 9.59789 8.35118 9.33004 8.40258 9.07162C8.45398 8.81321 8.58086 8.57584 8.76717 8.38953C8.95347 8.20322 9.19084 8.07634 9.44926 8.02494C9.70768 7.97354 9.97553 7.99992 10.219 8.10075C10.4624 8.20158 10.6704 8.37233 10.8168 8.5914C10.9632 8.81048 11.0413 9.06804 11.0413 9.33152C11.0409 9.68471 10.9004 10.0233 10.6507 10.2731C10.401 10.5228 10.0623 10.6633 9.70915 10.6637V10.6637ZM5.04655 7.99935C4.98767 7.99935 4.9312 8.02274 4.88956 8.06438C4.84792 8.10602 4.82453 8.16249 4.82453 8.22137V9.90567L3.09746 8.17861C2.86999 7.95235 2.68964 7.68324 2.56686 7.38682C2.44407 7.09041 2.3813 6.77259 2.38216 6.45176L2.38205 4.43251C2.83033 4.37603 3.24023 4.15083 3.52831 3.80276C3.8164 3.45469 3.96101 3.00992 3.93271 2.55899C3.90441 2.10805 3.70532 1.68485 3.37598 1.37553C3.04663 1.06622 2.61179 0.894036 2.15997 0.894043C1.70814 0.89405 1.27331 1.06624 0.943972 1.37557C0.614638 1.6849 0.415564 2.1081 0.387276 2.55904C0.358988 3.00998 0.503612 3.45474 0.791707 3.8028C1.0798 4.15086 1.48971 4.37605 1.93799 4.43252L1.9381 6.45176C1.93708 6.83093 2.01127 7.20654 2.15639 7.55684C2.3015 7.90715 2.51465 8.22519 2.7835 8.49257L4.51056 10.2196H2.82627C2.76738 10.2196 2.71091 10.243 2.66927 10.2847C2.62763 10.3263 2.60424 10.3828 2.60424 10.4417C2.60424 10.5005 2.62763 10.557 2.66927 10.5987C2.71091 10.6403 2.76738 10.6637 2.82627 10.6637H5.04655C5.06115 10.6637 5.07572 10.6622 5.09003 10.6593C5.09656 10.658 5.10258 10.6556 5.10886 10.6537C5.12442 10.6504 5.13924 10.6443 5.15258 10.6356C5.15827 10.6325 5.16421 10.63 5.16968 10.6263C5.19404 10.61 5.21496 10.5891 5.23123 10.5648C5.23481 10.5594 5.23725 10.5536 5.24031 10.548C5.24447 10.5411 5.24824 10.5339 5.25162 10.5266C5.25434 10.5192 5.25666 10.5117 5.25858 10.5041C5.26045 10.4977 5.26289 10.4917 5.26419 10.4851C5.26709 10.4708 5.26856 10.4563 5.26858 10.4417V8.22137C5.26858 8.16249 5.24519 8.10602 5.20355 8.06438C5.16191 8.02274 5.10544 7.99935 5.04655 7.99935ZM0.827849 2.67066C0.827849 2.40718 0.905979 2.14962 1.05236 1.93054C1.19874 1.71147 1.4068 1.54072 1.65022 1.43989C1.89364 1.33906 2.1615 1.31268 2.41991 1.36409C2.67833 1.41549 2.9157 1.54236 3.10201 1.72867C3.28832 1.91498 3.41519 2.15235 3.46659 2.41077C3.518 2.66918 3.49162 2.93704 3.39079 3.18046C3.28996 3.42388 3.11921 3.63194 2.90013 3.77832C2.68106 3.9247 2.4235 4.00283 2.16002 4.00283C1.80683 4.00243 1.46822 3.86194 1.21848 3.6122C0.968736 3.36246 0.828253 3.02385 0.827849 2.67066V2.67066Z"
+                        d="M9.93216 7.56966L9.93205 5.55042C9.93306 5.17125 9.85887 4.79565 9.71376 4.44534C9.56864 4.09504 9.3555 3.77699 9.08665 3.50961L7.35959 1.78255H9.04388C9.10277 1.78255 9.15924 1.75915 9.20088 1.71751C9.24252 1.67588 9.26591 1.6194 9.26591 1.56052C9.26591 1.50163 9.24252 1.44516 9.20088 1.40352C9.15924 1.36188 9.10277 1.33849 9.04388 1.33849H6.8236C6.80899 1.33852 6.79442 1.33999 6.7801 1.34288C6.77365 1.34416 6.76771 1.34657 6.76148 1.34839C6.75375 1.35034 6.74613 1.3527 6.73866 1.35548C6.73149 1.35877 6.7245 1.36245 6.71773 1.36649C6.71196 1.36963 6.70597 1.37218 6.70044 1.37587C6.67609 1.39215 6.65519 1.41307 6.63891 1.43741C6.63534 1.4428 6.63287 1.44865 6.62978 1.45427C6.62106 1.46767 6.61487 1.48257 6.61154 1.49821C6.60967 1.5045 6.60726 1.51052 6.60596 1.51703C6.60306 1.53135 6.60159 1.54591 6.60157 1.56052V3.7808C6.60157 3.83969 6.62496 3.89616 6.6666 3.9378C6.70824 3.97944 6.76471 4.00283 6.8236 4.00283C6.88248 4.00283 6.93896 3.97944 6.9806 3.9378C7.02223 3.89616 7.04563 3.83969 7.04563 3.7808V2.09651L8.77269 3.82357C9.00016 4.04982 9.18051 4.31894 9.30329 4.61535C9.42607 4.91177 9.48885 5.22958 9.488 5.55042L9.4881 7.56967C9.03983 7.62615 8.62992 7.85135 8.34184 8.19942C8.05375 8.54748 7.90914 8.99226 7.93744 9.44319C7.96575 9.89413 8.16483 10.3173 8.49418 10.6266C8.82352 10.936 9.25836 11.1081 9.71019 11.1081C10.162 11.1081 10.5968 10.9359 10.9262 10.6266C11.2555 10.3173 11.4546 9.89408 11.4829 9.44314C11.5112 8.9922 11.3665 8.54744 11.0784 8.19938C10.7904 7.85132 10.3804 7.62613 9.93216 7.56966H9.93216ZM9.71013 10.6637C9.44665 10.6637 9.18909 10.5856 8.97002 10.4392C8.75094 10.2928 8.58019 10.0847 8.47937 9.84132C8.37854 9.59789 8.35215 9.33004 8.40356 9.07162C8.45496 8.81321 8.58184 8.57584 8.76814 8.38953C8.95445 8.20322 9.19182 8.07634 9.45024 8.02494C9.70865 7.97354 9.97651 7.99992 10.2199 8.10075C10.4634 8.20158 10.6714 8.37233 10.8178 8.5914C10.9642 8.81048 11.0423 9.06804 11.0423 9.33152C11.0419 9.68471 10.9014 10.0233 10.6517 10.2731C10.4019 10.5228 10.0633 10.6633 9.71013 10.6637V10.6637ZM5.04753 7.99935C4.98865 7.99935 4.93217 8.02274 4.89054 8.06438C4.8489 8.10602 4.82551 8.16249 4.8255 8.22137V9.90567L3.09844 8.17861C2.87096 7.95235 2.69061 7.68324 2.56783 7.38682C2.44505 7.09041 2.38227 6.77259 2.38313 6.45176L2.38303 4.43251C2.8313 4.37603 3.24121 4.15083 3.52929 3.80276C3.81738 3.45469 3.96199 3.00992 3.93368 2.55899C3.90538 2.10805 3.7063 1.68485 3.37695 1.37553C3.04761 1.06622 2.61277 0.894036 2.16094 0.894043C1.70912 0.89405 1.27428 1.06624 0.944949 1.37557C0.615615 1.6849 0.416541 2.1081 0.388253 2.55904C0.359965 3.00998 0.504588 3.45474 0.792684 3.8028C1.08078 4.15086 1.49069 4.37605 1.93897 4.43252L1.93908 6.45176C1.93806 6.83093 2.01225 7.20654 2.15736 7.55684C2.30248 7.90715 2.51563 8.22519 2.78448 8.49257L4.51154 10.2196H2.82724C2.76836 10.2196 2.71189 10.243 2.67025 10.2847C2.62861 10.3263 2.60522 10.3828 2.60522 10.4417C2.60522 10.5005 2.62861 10.557 2.67025 10.5987C2.71189 10.6403 2.76836 10.6637 2.82724 10.6637H5.04753C5.06213 10.6637 5.07669 10.6622 5.091 10.6593C5.09754 10.658 5.10355 10.6556 5.10984 10.6537C5.1254 10.6504 5.14022 10.6443 5.15356 10.6356C5.15925 10.6325 5.16519 10.63 5.17066 10.6263C5.19502 10.61 5.21593 10.5891 5.23221 10.5648C5.23579 10.5594 5.23823 10.5536 5.24129 10.548C5.24544 10.5411 5.24922 10.5339 5.25259 10.5266C5.25532 10.5192 5.25764 10.5117 5.25956 10.5041C5.26143 10.4977 5.26387 10.4917 5.26517 10.4851C5.26806 10.4708 5.26953 10.4563 5.26956 10.4417V8.22137C5.26956 8.16249 5.24616 8.10602 5.20453 8.06438C5.16289 8.02274 5.10642 7.99935 5.04753 7.99935ZM0.828825 2.67066C0.828825 2.40718 0.906956 2.14962 1.05334 1.93054C1.19972 1.71147 1.40777 1.54072 1.6512 1.43989C1.89462 1.33906 2.16247 1.31268 2.42089 1.36409C2.67931 1.41549 2.91668 1.54236 3.10298 1.72867C3.28929 1.91498 3.41617 2.15235 3.46757 2.41077C3.51897 2.66918 3.49259 2.93704 3.39176 3.18046C3.29093 3.42388 3.12019 3.63194 2.90111 3.77832C2.68204 3.9247 2.42448 4.00283 2.161 4.00283C1.80781 4.00243 1.4692 3.86194 1.21946 3.6122C0.969712 3.36246 0.829229 3.02385 0.828825 2.67066V2.67066Z"
                         fill="#F6F5F2"
                         stroke="white"
-                        strokeWidth="0.5"
+                        stroke-width="0.5"
                       ></path>
                     </svg>
                   </div>
                 </div>
               </div>
-              <p className="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
                 Pipeline: CSV Connector 3
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
               Added 3 days ago
             </p>
           </div>
         </div>
         <div
-          className="flex flex-col justify-start items-start w-80 absolute left-[428px] top-[748px] overflow-hidden bg-white border border-gray-200"
+          class="flex flex-col justify-start items-start w-80 absolute left-[428px] top-[748px] overflow-hidden bg-white border border-gray-200"
           style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <p className="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
                 D&#x26;C CSV
               </p>
             </div>
-            <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <div className="flex-grow-0 flex-shrink-0 w-[18px] h-[18px] relative">
+            <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <div class="flex-grow-0 flex-shrink-0 w-[18px] h-[18px] relative">
                 <svg
                   width="18"
                   height="18"
                   viewBox="0 0 18 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute left-[-0.68px] top-[-0.68px]"
+                  class="absolute left-[-0.68px] top-[-0.68px]"
                   preserveAspectRatio="xMidYMid meet"
                 >
                   <circle cx="9" cy="9" r="9" fill="#4EBF8D"></circle>
                 </svg>
-                <div className="flex flex-col justify-center items-center w-[15.94px] h-[15.94px] absolute left-[0.96px] top-[1.03px] gap-[2.960381269454956px]">
-                  <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
+                <div class="flex flex-col justify-center items-center w-[15.94px] h-[15.94px] absolute left-[0.96px] top-[1.03px] gap-[2.960381269454956px]">
+                  <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
                     <svg
                       width="12"
                       height="12"
                       viewBox="0 0 12 12"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-grow-0 flex-shrink-0"
+                      class="flex-grow-0 flex-shrink-0"
                       preserveAspectRatio="none"
                     >
                       <path
-                        d="M9.93118 7.56966L9.93107 5.55042C9.93209 5.17125 9.85789 4.79565 9.71278 4.44534C9.56767 4.09504 9.35452 3.77699 9.08568 3.50961L7.35861 1.78255H9.04291C9.10179 1.78255 9.15827 1.75915 9.1999 1.71751C9.24154 1.67588 9.26493 1.6194 9.26493 1.56052C9.26493 1.50163 9.24154 1.44516 9.1999 1.40352C9.15827 1.36188 9.10179 1.33849 9.04291 1.33849H6.82262C6.80801 1.33852 6.79344 1.33999 6.77912 1.34288C6.77267 1.34416 6.76673 1.34657 6.7605 1.34839C6.75277 1.35034 6.74515 1.3527 6.73768 1.35548C6.73051 1.35877 6.72353 1.36245 6.71675 1.36649C6.71098 1.36963 6.70499 1.37218 6.69946 1.37587C6.67512 1.39215 6.65421 1.41307 6.63794 1.43741C6.63436 1.4428 6.63189 1.44865 6.6288 1.45427C6.62008 1.46767 6.6139 1.48257 6.61056 1.49821C6.60869 1.5045 6.60628 1.51052 6.60498 1.51703C6.60209 1.53135 6.60062 1.54591 6.60059 1.56052V3.7808C6.60059 3.83969 6.62398 3.89616 6.66562 3.9378C6.70726 3.97944 6.76373 4.00283 6.82262 4.00283C6.88151 4.00283 6.93798 3.97944 6.97962 3.9378C7.02126 3.89616 7.04465 3.83969 7.04465 3.7808V2.09651L8.77171 3.82357C8.99919 4.04982 9.17953 4.31894 9.30232 4.61535C9.4251 4.91177 9.48788 5.22958 9.48702 5.55042L9.48713 7.56967C9.03885 7.62615 8.62895 7.85135 8.34086 8.19942C8.05278 8.54748 7.90817 8.99226 7.93647 9.44319C7.96477 9.89413 8.16386 10.3173 8.4932 10.6266C8.82254 10.936 9.25739 11.1081 9.70921 11.1081C10.161 11.1081 10.5959 10.9359 10.9252 10.6266C11.2545 10.3173 11.4536 9.89408 11.4819 9.44314C11.5102 8.9922 11.3656 8.54744 11.0775 8.19938C10.7894 7.85132 10.3795 7.62613 9.93118 7.56966H9.93118ZM9.70915 10.6637C9.44568 10.6637 9.18811 10.5856 8.96904 10.4392C8.74997 10.2928 8.57922 10.0847 8.47839 9.84132C8.37756 9.59789 8.35118 9.33004 8.40258 9.07162C8.45398 8.81321 8.58086 8.57584 8.76717 8.38953C8.95347 8.20322 9.19084 8.07634 9.44926 8.02494C9.70768 7.97354 9.97553 7.99992 10.219 8.10075C10.4624 8.20158 10.6704 8.37233 10.8168 8.5914C10.9632 8.81048 11.0413 9.06804 11.0413 9.33152C11.0409 9.68471 10.9004 10.0233 10.6507 10.2731C10.401 10.5228 10.0623 10.6633 9.70915 10.6637V10.6637ZM5.04655 7.99935C4.98767 7.99935 4.9312 8.02274 4.88956 8.06438C4.84792 8.10602 4.82453 8.16249 4.82453 8.22137V9.90567L3.09746 8.17861C2.86999 7.95235 2.68964 7.68324 2.56686 7.38682C2.44407 7.09041 2.3813 6.77259 2.38216 6.45176L2.38205 4.43251C2.83033 4.37603 3.24023 4.15083 3.52831 3.80276C3.8164 3.45469 3.96101 3.00992 3.93271 2.55899C3.90441 2.10805 3.70532 1.68485 3.37598 1.37553C3.04663 1.06622 2.61179 0.894036 2.15997 0.894043C1.70814 0.89405 1.27331 1.06624 0.943972 1.37557C0.614638 1.6849 0.415564 2.1081 0.387276 2.55904C0.358988 3.00998 0.503612 3.45474 0.791707 3.8028C1.0798 4.15086 1.48971 4.37605 1.93799 4.43252L1.9381 6.45176C1.93708 6.83093 2.01127 7.20654 2.15639 7.55684C2.3015 7.90715 2.51465 8.22519 2.7835 8.49257L4.51056 10.2196H2.82627C2.76738 10.2196 2.71091 10.243 2.66927 10.2847C2.62763 10.3263 2.60424 10.3828 2.60424 10.4417C2.60424 10.5005 2.62763 10.557 2.66927 10.5987C2.71091 10.6403 2.76738 10.6637 2.82627 10.6637H5.04655C5.06115 10.6637 5.07572 10.6622 5.09003 10.6593C5.09656 10.658 5.10258 10.6556 5.10886 10.6537C5.12442 10.6504 5.13924 10.6443 5.15258 10.6356C5.15827 10.6325 5.16421 10.63 5.16968 10.6263C5.19404 10.61 5.21496 10.5891 5.23123 10.5648C5.23481 10.5594 5.23725 10.5536 5.24031 10.548C5.24447 10.5411 5.24824 10.5339 5.25162 10.5266C5.25434 10.5192 5.25666 10.5117 5.25858 10.5041C5.26045 10.4977 5.26289 10.4917 5.26419 10.4851C5.26709 10.4708 5.26856 10.4563 5.26858 10.4417V8.22137C5.26858 8.16249 5.24519 8.10602 5.20355 8.06438C5.16191 8.02274 5.10544 7.99935 5.04655 7.99935ZM0.827849 2.67066C0.827849 2.40718 0.905979 2.14962 1.05236 1.93054C1.19874 1.71147 1.4068 1.54072 1.65022 1.43989C1.89364 1.33906 2.1615 1.31268 2.41991 1.36409C2.67833 1.41549 2.9157 1.54236 3.10201 1.72867C3.28832 1.91498 3.41519 2.15235 3.46659 2.41077C3.518 2.66918 3.49162 2.93704 3.39079 3.18046C3.28996 3.42388 3.11921 3.63194 2.90013 3.77832C2.68106 3.9247 2.4235 4.00283 2.16002 4.00283C1.80683 4.00243 1.46822 3.86194 1.21848 3.6122C0.968736 3.36246 0.828253 3.02385 0.827849 2.67066V2.67066Z"
+                        d="M9.93216 7.56966L9.93205 5.55042C9.93306 5.17125 9.85887 4.79565 9.71376 4.44534C9.56864 4.09504 9.3555 3.77699 9.08665 3.50961L7.35959 1.78255H9.04388C9.10277 1.78255 9.15924 1.75915 9.20088 1.71751C9.24252 1.67588 9.26591 1.6194 9.26591 1.56052C9.26591 1.50163 9.24252 1.44516 9.20088 1.40352C9.15924 1.36188 9.10277 1.33849 9.04388 1.33849H6.8236C6.80899 1.33852 6.79442 1.33999 6.7801 1.34288C6.77365 1.34416 6.76771 1.34657 6.76148 1.34839C6.75375 1.35034 6.74613 1.3527 6.73866 1.35548C6.73149 1.35877 6.7245 1.36245 6.71773 1.36649C6.71196 1.36963 6.70597 1.37218 6.70044 1.37587C6.67609 1.39215 6.65519 1.41307 6.63891 1.43741C6.63534 1.4428 6.63287 1.44865 6.62978 1.45427C6.62106 1.46767 6.61487 1.48257 6.61154 1.49821C6.60967 1.5045 6.60726 1.51052 6.60596 1.51703C6.60306 1.53135 6.60159 1.54591 6.60157 1.56052V3.7808C6.60157 3.83969 6.62496 3.89616 6.6666 3.9378C6.70824 3.97944 6.76471 4.00283 6.8236 4.00283C6.88248 4.00283 6.93896 3.97944 6.9806 3.9378C7.02223 3.89616 7.04563 3.83969 7.04563 3.7808V2.09651L8.77269 3.82357C9.00016 4.04982 9.18051 4.31894 9.30329 4.61535C9.42607 4.91177 9.48885 5.22958 9.488 5.55042L9.4881 7.56967C9.03983 7.62615 8.62992 7.85135 8.34184 8.19942C8.05375 8.54748 7.90914 8.99226 7.93744 9.44319C7.96575 9.89413 8.16483 10.3173 8.49418 10.6266C8.82352 10.936 9.25836 11.1081 9.71019 11.1081C10.162 11.1081 10.5968 10.9359 10.9262 10.6266C11.2555 10.3173 11.4546 9.89408 11.4829 9.44314C11.5112 8.9922 11.3665 8.54744 11.0784 8.19938C10.7904 7.85132 10.3804 7.62613 9.93216 7.56966H9.93216ZM9.71013 10.6637C9.44665 10.6637 9.18909 10.5856 8.97002 10.4392C8.75094 10.2928 8.58019 10.0847 8.47937 9.84132C8.37854 9.59789 8.35215 9.33004 8.40356 9.07162C8.45496 8.81321 8.58184 8.57584 8.76814 8.38953C8.95445 8.20322 9.19182 8.07634 9.45024 8.02494C9.70865 7.97354 9.97651 7.99992 10.2199 8.10075C10.4634 8.20158 10.6714 8.37233 10.8178 8.5914C10.9642 8.81048 11.0423 9.06804 11.0423 9.33152C11.0419 9.68471 10.9014 10.0233 10.6517 10.2731C10.4019 10.5228 10.0633 10.6633 9.71013 10.6637V10.6637ZM5.04753 7.99935C4.98865 7.99935 4.93217 8.02274 4.89054 8.06438C4.8489 8.10602 4.82551 8.16249 4.8255 8.22137V9.90567L3.09844 8.17861C2.87096 7.95235 2.69061 7.68324 2.56783 7.38682C2.44505 7.09041 2.38227 6.77259 2.38313 6.45176L2.38303 4.43251C2.8313 4.37603 3.24121 4.15083 3.52929 3.80276C3.81738 3.45469 3.96199 3.00992 3.93368 2.55899C3.90538 2.10805 3.7063 1.68485 3.37695 1.37553C3.04761 1.06622 2.61277 0.894036 2.16094 0.894043C1.70912 0.89405 1.27428 1.06624 0.944949 1.37557C0.615615 1.6849 0.416541 2.1081 0.388253 2.55904C0.359965 3.00998 0.504588 3.45474 0.792684 3.8028C1.08078 4.15086 1.49069 4.37605 1.93897 4.43252L1.93908 6.45176C1.93806 6.83093 2.01225 7.20654 2.15736 7.55684C2.30248 7.90715 2.51563 8.22519 2.78448 8.49257L4.51154 10.2196H2.82724C2.76836 10.2196 2.71189 10.243 2.67025 10.2847C2.62861 10.3263 2.60522 10.3828 2.60522 10.4417C2.60522 10.5005 2.62861 10.557 2.67025 10.5987C2.71189 10.6403 2.76836 10.6637 2.82724 10.6637H5.04753C5.06213 10.6637 5.07669 10.6622 5.091 10.6593C5.09754 10.658 5.10355 10.6556 5.10984 10.6537C5.1254 10.6504 5.14022 10.6443 5.15356 10.6356C5.15925 10.6325 5.16519 10.63 5.17066 10.6263C5.19502 10.61 5.21593 10.5891 5.23221 10.5648C5.23579 10.5594 5.23823 10.5536 5.24129 10.548C5.24544 10.5411 5.24922 10.5339 5.25259 10.5266C5.25532 10.5192 5.25764 10.5117 5.25956 10.5041C5.26143 10.4977 5.26387 10.4917 5.26517 10.4851C5.26806 10.4708 5.26953 10.4563 5.26956 10.4417V8.22137C5.26956 8.16249 5.24616 8.10602 5.20453 8.06438C5.16289 8.02274 5.10642 7.99935 5.04753 7.99935ZM0.828825 2.67066C0.828825 2.40718 0.906956 2.14962 1.05334 1.93054C1.19972 1.71147 1.40777 1.54072 1.6512 1.43989C1.89462 1.33906 2.16247 1.31268 2.42089 1.36409C2.67931 1.41549 2.91668 1.54236 3.10298 1.72867C3.28929 1.91498 3.41617 2.15235 3.46757 2.41077C3.51897 2.66918 3.49259 2.93704 3.39176 3.18046C3.29093 3.42388 3.12019 3.63194 2.90111 3.77832C2.68204 3.9247 2.42448 4.00283 2.161 4.00283C1.80781 4.00243 1.4692 3.86194 1.21946 3.6122C0.969712 3.36246 0.829229 3.02385 0.828825 2.67066V2.67066Z"
                         fill="#F6F5F2"
                         stroke="white"
-                        strokeWidth="0.5"
+                        stroke-width="0.5"
                       ></path>
                     </svg>
                   </div>
                 </div>
               </div>
-              <p className="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
                 Pipeline: CVS Connector 2
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
               Added Jan 4th 2023
             </p>
           </div>
         </div>
         <div
-          className="flex flex-col justify-start items-start w-80 absolute left-[764px] top-[748px] overflow-hidden bg-white border border-gray-200"
-          style={{boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)'}}
+          class="flex flex-col justify-start items-start w-80 absolute left-[764px] top-[748px] overflow-hidden bg-white border border-gray-200"
+          style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <p className="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
                 Media CSV
               </p>
             </div>
-            <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <div className="flex-grow-0 flex-shrink-0 w-[16.94px] h-[16.94px]">
+            <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <div class="flex-grow-0 flex-shrink-0 w-[16.94px] h-[16.94px]">
                 <svg
                   width="17"
                   height="18"
                   viewBox="0 0 17 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute left-[-0.34px] top-[1.19px]"
+                  class="absolute left-[-0.34px] top-[1.19px]"
                   preserveAspectRatio="xMidYMid meet"
                 >
                   <circle
@@ -925,57 +925,57 @@ const Home = (props) => {
                     fill="#F27A75"
                   ></circle>
                 </svg>
-                <div className="flex flex-col justify-center items-center w-[15px] h-[15px] absolute left-[0.91px] top-[2.5px] gap-[2.960381269454956px]">
-                  <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
+                <div class="flex flex-col justify-center items-center w-[15px] h-[15px] absolute left-[0.91px] top-[2.5px] gap-[2.960381269454956px]">
+                  <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
                     <svg
                       width="13"
                       height="12"
                       viewBox="0 0 13 12"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-grow-0 flex-shrink-0"
+                      class="flex-grow-0 flex-shrink-0"
                       preserveAspectRatio="none"
                     >
                       <path
                         d="M10.4029 7.56954L10.4028 5.5503C10.4038 5.17113 10.3296 4.79552 10.1845 4.44522C10.0393 4.09492 9.8262 3.77687 9.55735 3.50949L7.83029 1.78242H9.51459C9.57347 1.78242 9.62995 1.75903 9.67158 1.71739C9.71322 1.67575 9.73661 1.61928 9.73661 1.56039C9.73661 1.50151 9.71322 1.44504 9.67158 1.4034C9.62995 1.36176 9.57347 1.33837 9.51459 1.33837H7.2943C7.27969 1.3384 7.26512 1.33987 7.2508 1.34276C7.24435 1.34404 7.23841 1.34645 7.23218 1.34827C7.22445 1.35022 7.21683 1.35258 7.20936 1.35536C7.20219 1.35865 7.19521 1.36233 7.18843 1.36636C7.18266 1.36951 7.17667 1.37206 7.17114 1.37575C7.1468 1.39203 7.12589 1.41294 7.10962 1.43729C7.10604 1.44268 7.10357 1.44853 7.10048 1.45414C7.09176 1.46755 7.08558 1.48244 7.08224 1.49808C7.08037 1.50438 7.07796 1.5104 7.07666 1.51691C7.07377 1.53122 7.0723 1.54579 7.07227 1.56039V3.78068C7.07227 3.83957 7.09566 3.89604 7.1373 3.93768C7.17894 3.97932 7.23541 4.00271 7.2943 4.00271C7.35319 4.00271 7.40966 3.97932 7.4513 3.93768C7.49294 3.89604 7.51633 3.83957 7.51633 3.78068V2.09639L9.24339 3.82345C9.47087 4.0497 9.65121 4.31882 9.774 4.61523C9.89678 4.91164 9.95956 5.22946 9.9587 5.5503L9.95881 7.56954C9.51053 7.62603 9.10063 7.85123 8.81254 8.1993C8.52446 8.54736 8.37985 8.99214 8.40815 9.44307C8.43645 9.89401 8.63554 10.3172 8.96488 10.6265C9.29422 10.9358 9.72907 11.108 10.1809 11.108C10.6327 11.108 11.0675 10.9358 11.3969 10.6265C11.7262 10.3172 11.9253 9.89395 11.9536 9.44302C11.9819 8.99208 11.8372 8.54731 11.5491 8.19925C11.2611 7.8512 10.8511 7.62601 10.4029 7.56954H10.4029ZM10.1808 10.6636C9.91736 10.6636 9.65979 10.5854 9.44072 10.4391C9.22165 10.2927 9.0509 10.0846 8.95007 9.84119C8.84924 9.59777 8.82286 9.32992 8.87426 9.0715C8.92566 8.81308 9.05254 8.57571 9.23885 8.38941C9.42515 8.2031 9.66252 8.07622 9.92094 8.02482C10.1794 7.97342 10.4472 7.9998 10.6906 8.10063C10.9341 8.20146 11.1421 8.37221 11.2885 8.59128C11.4349 8.81035 11.513 9.06792 11.513 9.33139C11.5126 9.68458 11.3721 10.0232 11.1224 10.2729C10.8726 10.5227 10.534 10.6632 10.1808 10.6636V10.6636ZM5.51823 7.99922C5.45935 7.99923 5.40288 8.02262 5.36124 8.06426C5.3196 8.1059 5.29621 8.16237 5.29621 8.22125V9.90555L3.56914 8.17848C3.34166 7.95223 3.16132 7.68311 3.03854 7.3867C2.91575 7.09029 2.85298 6.77247 2.85384 6.45164L2.85373 4.43239C3.30201 4.3759 3.71191 4.15071 3.99999 3.80264C4.28808 3.45457 4.43269 3.0098 4.40439 2.55886C4.37609 2.10793 4.177 1.68473 3.84766 1.37541C3.51831 1.06609 3.08347 0.893914 2.63165 0.893921C2.17982 0.893928 1.74499 1.06612 1.41565 1.37545C1.08632 1.68477 0.887244 2.10798 0.858956 2.55892C0.830668 3.00985 0.975292 3.45462 1.26339 3.80268C1.55148 4.15074 1.96139 4.37592 2.40967 4.4324L2.40978 6.45164C2.40876 6.83081 2.48295 7.20641 2.62807 7.55672C2.77318 7.90702 2.98633 8.22507 3.25518 8.49244L4.98224 10.2195H3.29795C3.23906 10.2195 3.18259 10.2429 3.14095 10.2845C3.09931 10.3262 3.07592 10.3827 3.07592 10.4415C3.07592 10.5004 3.09931 10.5569 3.14095 10.5985C3.18259 10.6402 3.23906 10.6636 3.29795 10.6636H5.51823C5.53283 10.6635 5.5474 10.6621 5.56171 10.6592C5.56824 10.6579 5.57426 10.6554 5.58054 10.6536C5.5961 10.6503 5.61092 10.6441 5.62426 10.6355C5.62995 10.6324 5.63589 10.6298 5.64136 10.6262C5.66572 10.6099 5.68663 10.589 5.70291 10.5646C5.70649 10.5593 5.70893 10.5535 5.71199 10.5479C5.71615 10.5409 5.71992 10.5338 5.7233 10.5264C5.72602 10.5191 5.72834 10.5116 5.73026 10.5039C5.73213 10.4976 5.73457 10.4916 5.73587 10.485C5.73877 10.4707 5.74024 10.4561 5.74026 10.4415V8.22125C5.74026 8.16237 5.71687 8.1059 5.67523 8.06426C5.63359 8.02262 5.57712 7.99923 5.51823 7.99922ZM1.29953 2.67054C1.29953 2.40706 1.37766 2.1495 1.52404 1.93042C1.67042 1.71135 1.87848 1.5406 2.1219 1.43977C2.36532 1.33894 2.63318 1.31256 2.89159 1.36396C3.15001 1.41537 3.38738 1.54224 3.57369 1.72855C3.75999 1.91486 3.88687 2.15223 3.93827 2.41064C3.98968 2.66906 3.96329 2.93692 3.86247 3.18034C3.76164 3.42376 3.59089 3.63182 3.37181 3.7782C3.15274 3.92458 2.89518 4.00271 2.6317 4.00271C2.27851 4.00231 1.9399 3.86182 1.69016 3.61208C1.44042 3.36234 1.29993 3.02373 1.29953 2.67054V2.67054Z"
                         fill="#F6F5F2"
                         stroke="white"
-                        strokeWidth="0.5"
+                        stroke-width="0.5"
                       ></path>
                     </svg>
                   </div>
                 </div>
               </div>
-              <p className="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
                 Pipeline: CVS Connector
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
               Added Jan 7th 2023
             </p>
           </div>
         </div>
         <div
-          className="flex flex-col justify-start items-start w-80 absolute left-[1100px] top-[748px] overflow-hidden bg-white border border-gray-200"
-          style={{boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)'}}
+          class="flex flex-col justify-start items-start w-80 absolute left-[1100px] top-[748px] overflow-hidden bg-white border border-gray-200"
+          style={{ boxShadow: '0px 1px 3px 0 rgba(0,0,0,0.1), 0px 1px 2px 0 rgba(0,0,0,0.06)' }}
         >
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
-            <div className="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <p className="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 gap-2 px-5 pt-2.5 pb-2">
+            <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
                 Media CSV
               </p>
             </div>
-            <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
-              <div className="flex-grow-0 flex-shrink-0 w-[16.94px] h-[16.94px]">
+            <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative gap-2.5">
+              <div class="flex-grow-0 flex-shrink-0 w-[16.94px] h-[16.94px]">
                 <svg
                   width="17"
                   height="18"
                   viewBox="0 0 17 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
-                  className="absolute left-[-0.34px] top-[1.19px]"
+                  class="absolute left-[-0.34px] top-[1.19px]"
                   preserveAspectRatio="xMidYMid meet"
                 >
                   <circle
@@ -985,55 +985,55 @@ const Home = (props) => {
                     fill="#F27A75"
                   ></circle>
                 </svg>
-                <div className="flex flex-col justify-center items-center w-[15px] h-[15px] absolute left-[0.91px] top-[2.5px] gap-[2.960381269454956px]">
-                  <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
+                <div class="flex flex-col justify-center items-center w-[15px] h-[15px] absolute left-[0.91px] top-[2.5px] gap-[2.960381269454956px]">
+                  <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[2.960381269454956px] px-[1.480190634727478px] py-[2.0722668170928955px]">
                     <svg
                       width="13"
                       height="12"
                       viewBox="0 0 13 12"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      className="flex-grow-0 flex-shrink-0"
+                      class="flex-grow-0 flex-shrink-0"
                       preserveAspectRatio="none"
                     >
                       <path
                         d="M10.4029 7.56954L10.4028 5.5503C10.4038 5.17113 10.3296 4.79552 10.1845 4.44522C10.0393 4.09492 9.8262 3.77687 9.55735 3.50949L7.83029 1.78242H9.51459C9.57347 1.78242 9.62995 1.75903 9.67158 1.71739C9.71322 1.67575 9.73661 1.61928 9.73661 1.56039C9.73661 1.50151 9.71322 1.44504 9.67158 1.4034C9.62995 1.36176 9.57347 1.33837 9.51459 1.33837H7.2943C7.27969 1.3384 7.26512 1.33987 7.2508 1.34276C7.24435 1.34404 7.23841 1.34645 7.23218 1.34827C7.22445 1.35022 7.21683 1.35258 7.20936 1.35536C7.20219 1.35865 7.19521 1.36233 7.18843 1.36636C7.18266 1.36951 7.17667 1.37206 7.17114 1.37575C7.1468 1.39203 7.12589 1.41294 7.10962 1.43729C7.10604 1.44268 7.10357 1.44853 7.10048 1.45414C7.09176 1.46755 7.08558 1.48244 7.08224 1.49808C7.08037 1.50438 7.07796 1.5104 7.07666 1.51691C7.07377 1.53122 7.0723 1.54579 7.07227 1.56039V3.78068C7.07227 3.83957 7.09566 3.89604 7.1373 3.93768C7.17894 3.97932 7.23541 4.00271 7.2943 4.00271C7.35319 4.00271 7.40966 3.97932 7.4513 3.93768C7.49294 3.89604 7.51633 3.83957 7.51633 3.78068V2.09639L9.24339 3.82345C9.47087 4.0497 9.65121 4.31882 9.774 4.61523C9.89678 4.91164 9.95956 5.22946 9.9587 5.5503L9.95881 7.56954C9.51053 7.62603 9.10063 7.85123 8.81254 8.1993C8.52446 8.54736 8.37985 8.99214 8.40815 9.44307C8.43645 9.89401 8.63554 10.3172 8.96488 10.6265C9.29422 10.9358 9.72907 11.108 10.1809 11.108C10.6327 11.108 11.0675 10.9358 11.3969 10.6265C11.7262 10.3172 11.9253 9.89395 11.9536 9.44302C11.9819 8.99208 11.8372 8.54731 11.5491 8.19925C11.2611 7.8512 10.8511 7.62601 10.4029 7.56954H10.4029ZM10.1808 10.6636C9.91736 10.6636 9.65979 10.5854 9.44072 10.4391C9.22165 10.2927 9.0509 10.0846 8.95007 9.84119C8.84924 9.59777 8.82286 9.32992 8.87426 9.0715C8.92566 8.81308 9.05254 8.57571 9.23885 8.38941C9.42515 8.2031 9.66252 8.07622 9.92094 8.02482C10.1794 7.97342 10.4472 7.9998 10.6906 8.10063C10.9341 8.20146 11.1421 8.37221 11.2885 8.59128C11.4349 8.81035 11.513 9.06792 11.513 9.33139C11.5126 9.68458 11.3721 10.0232 11.1224 10.2729C10.8726 10.5227 10.534 10.6632 10.1808 10.6636V10.6636ZM5.51823 7.99922C5.45935 7.99923 5.40288 8.02262 5.36124 8.06426C5.3196 8.1059 5.29621 8.16237 5.29621 8.22125V9.90555L3.56914 8.17848C3.34166 7.95223 3.16132 7.68311 3.03854 7.3867C2.91575 7.09029 2.85298 6.77247 2.85384 6.45164L2.85373 4.43239C3.30201 4.3759 3.71191 4.15071 3.99999 3.80264C4.28808 3.45457 4.43269 3.0098 4.40439 2.55886C4.37609 2.10793 4.177 1.68473 3.84766 1.37541C3.51831 1.06609 3.08347 0.893914 2.63165 0.893921C2.17982 0.893928 1.74499 1.06612 1.41565 1.37545C1.08632 1.68477 0.887244 2.10798 0.858956 2.55892C0.830668 3.00985 0.975292 3.45462 1.26339 3.80268C1.55148 4.15074 1.96139 4.37592 2.40967 4.4324L2.40978 6.45164C2.40876 6.83081 2.48295 7.20641 2.62807 7.55672C2.77318 7.90702 2.98633 8.22507 3.25518 8.49244L4.98224 10.2195H3.29795C3.23906 10.2195 3.18259 10.2429 3.14095 10.2845C3.09931 10.3262 3.07592 10.3827 3.07592 10.4415C3.07592 10.5004 3.09931 10.5569 3.14095 10.5985C3.18259 10.6402 3.23906 10.6636 3.29795 10.6636H5.51823C5.53283 10.6635 5.5474 10.6621 5.56171 10.6592C5.56824 10.6579 5.57426 10.6554 5.58054 10.6536C5.5961 10.6503 5.61092 10.6441 5.62426 10.6355C5.62995 10.6324 5.63589 10.6298 5.64136 10.6262C5.66572 10.6099 5.68663 10.589 5.70291 10.5646C5.70649 10.5593 5.70893 10.5535 5.71199 10.5479C5.71615 10.5409 5.71992 10.5338 5.7233 10.5264C5.72602 10.5191 5.72834 10.5116 5.73026 10.5039C5.73213 10.4976 5.73457 10.4916 5.73587 10.485C5.73877 10.4707 5.74024 10.4561 5.74026 10.4415V8.22125C5.74026 8.16237 5.71687 8.1059 5.67523 8.06426C5.63359 8.02262 5.57712 7.99923 5.51823 7.99922ZM1.29953 2.67054C1.29953 2.40706 1.37766 2.1495 1.52404 1.93042C1.67042 1.71135 1.87848 1.5406 2.1219 1.43977C2.36532 1.33894 2.63318 1.31256 2.89159 1.36396C3.15001 1.41537 3.38738 1.54224 3.57369 1.72855C3.75999 1.91486 3.88687 2.15223 3.93827 2.41064C3.98968 2.66906 3.96329 2.93692 3.86247 3.18034C3.76164 3.42376 3.59089 3.63182 3.37181 3.7782C3.15274 3.92458 2.89518 4.00271 2.6317 4.00271C2.27851 4.00231 1.9399 3.86182 1.69016 3.61208C1.44042 3.36234 1.29993 3.02373 1.29953 2.67054V2.67054Z"
                         fill="#F6F5F2"
                         stroke="white"
-                        strokeWidth="0.5"
+                        stroke-width="0.5"
                       ></path>
                     </svg>
                   </div>
                 </div>
               </div>
-              <p className="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
+              <p class="flex-grow-0 flex-shrink-0 text-sm font-light text-left text-[#1e1b19]">
                 Pipeline: CVS Connector
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
-            <p className="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
+          <div class="flex flex-col justify-center items-start self-stretch flex-grow-0 flex-shrink-0 h-[47px] relative gap-0.5 pl-5 pr-2.5 border-t border-r-0 border-b-0 border-l-0 border-[#e6e2da]">
+            <p class="flex-grow-0 flex-shrink-0 text-xs font-light text-left text-[#1e1b19]">
               Added Jan 7th 2023
             </p>
           </div>
         </div>
-        <div className="flex justify-end items-start w-[1260px] absolute left-40 top-[874px]">
-          <p className="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
+        <div class="flex justify-end items-start w-[1260px] absolute left-40 top-[874px]">
+          <p class="flex-grow-0 flex-shrink-0 text-sm text-left text-[#1e1b19]">
             Show All
           </p>
-          <div className="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-[3.7113523483276367px]">
-            <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.7113523483276367px] px-[2.5979466438293457px] py-[3.7113523483276367px]">
+          <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 gap-[3.7113523483276367px]">
+            <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-[3.7113523483276367px] px-[2.5979466438293457px] py-[3.7113523483276367px]">
               <svg
                 width="14"
                 height="12"
                 viewBox="0 0 14 12"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0"
+                class="flex-grow-0 flex-shrink-0"
                 preserveAspectRatio="none"
               >
                 <path
-                  d="M13.3208 6.19675L8.31044 11.2071C8.25824 11.2593 8.18745 11.2886 8.11363 11.2886C8.03982 11.2886 7.96903 11.2593 7.91683 11.2071C7.86463 11.1549 7.83531 11.0841 7.83531 11.0103C7.83531 10.9365 7.86463 10.8657 7.91683 10.8135L12.452 6.2783H0.876496C0.802673 6.2783 0.731873 6.24898 0.679672 6.19678C0.627471 6.14457 0.598145 6.07377 0.598145 5.99995C0.598145 5.92613 0.627471 5.85533 0.679672 5.80313C0.731873 5.75093 0.802673 5.7216 0.876496 5.7216H12.452L7.91683 1.18643C7.86463 1.13423 7.83531 1.06344 7.83531 0.989625C7.83531 0.91581 7.86463 0.845018 7.91683 0.792822C7.96903 0.740627 8.03982 0.711304 8.11363 0.711304C8.18745 0.711304 8.25824 0.740627 8.31044 0.792822L13.3208 5.80315C13.3466 5.82899 13.3671 5.85967 13.3811 5.89344C13.3951 5.9272 13.4023 5.9634 13.4023 5.99995C13.4023 6.0365 13.3951 6.0727 13.3811 6.10647C13.3671 6.14023 13.3466 6.17091 13.3208 6.19675V6.19675Z"
+                  d="M13.3203 6.19675L8.30995 11.2071C8.25775 11.2593 8.18696 11.2886 8.11314 11.2886C8.03933 11.2886 7.96854 11.2593 7.91634 11.2071C7.86415 11.1549 7.83482 11.0841 7.83482 11.0103C7.83482 10.9365 7.86415 10.8657 7.91634 10.8135L12.4515 6.2783H0.876008C0.802184 6.2783 0.731385 6.24898 0.679184 6.19678C0.626983 6.14457 0.597656 6.07377 0.597656 5.99995C0.597656 5.92613 0.626983 5.85533 0.679184 5.80313C0.731385 5.75093 0.802184 5.7216 0.876008 5.7216H12.4515L7.91634 1.18643C7.86415 1.13423 7.83482 1.06344 7.83482 0.989625C7.83482 0.91581 7.86415 0.845018 7.91634 0.792822C7.96854 0.740627 8.03933 0.711304 8.11314 0.711304C8.18696 0.711304 8.25775 0.740627 8.30995 0.792822L13.3203 5.80315C13.3461 5.82899 13.3666 5.85967 13.3806 5.89344C13.3946 5.9272 13.4018 5.9634 13.4018 5.99995C13.4018 6.0365 13.3946 6.0727 13.3806 6.10647C13.3666 6.14023 13.3461 6.17091 13.3203 6.19675V6.19675Z"
                   fill="black"
                 ></path>
               </svg>
@@ -1041,10 +1041,10 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="w-[1328px] h-[95px]">
+      <div class="w-[1328px] h-[95px]">
         <div
-          className="w-80 h-16 absolute left-[92px] top-[129px] rounded-[3px] bg-white border border-[#eaecf0]"
-          style={{boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)'}}
+          class="w-80 h-16 absolute left-[92px] top-[129px] rounded-[3px] bg-white border border-[#eaecf0]"
+          style={{ boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)' }}
         >
           <svg
             width="99"
@@ -1052,7 +1052,7 @@ const Home = (props) => {
             viewBox="0 0 99 9"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute left-[79.42px] top-[26px]"
+            class="absolute left-[79.42px] top-[26px]"
             preserveAspectRatio="none"
           >
             <path
@@ -1122,16 +1122,16 @@ const Home = (props) => {
             viewBox="0 0 28 28"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-7 h-7 absolute left-8 top-[18px]"
+            class="w-7 h-7 absolute left-8 top-[18px]"
             preserveAspectRatio="none"
           >
             <path d="M14 14H8Z" fill="#1E1B19"></path>
             <path
               d="M14 8V14M14 14V20M14 14H20M14 14H8"
               stroke="#1E1B19"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             ></path>
             <rect
               x="1"
@@ -1140,18 +1140,18 @@ const Home = (props) => {
               height="26"
               rx="13"
               stroke="#1E1B19"
-              strokeWidth="2"
+              stroke-width="2"
             ></rect>
           </svg>
-          <div className="flex flex-col justify-center items-center absolute left-[269px] top-[23px] gap-1">
-            <div className="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-1">
+          <div class="flex flex-col justify-center items-center absolute left-[269px] top-[23px] gap-1">
+            <div class="flex flex-col justify-center items-center flex-grow-0 flex-shrink-0 relative gap-1">
               <svg
                 width="22"
                 height="19"
                 viewBox="0 0 22 19"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="flex-grow-0 flex-shrink-0"
+                class="flex-grow-0 flex-shrink-0"
                 preserveAspectRatio="none"
               >
                 <path
@@ -1169,10 +1169,10 @@ const Home = (props) => {
           viewBox="0 0 326 70"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-80 h-16 absolute left-[428px] top-[129px]"
+          class="w-80 h-16 absolute left-[428px] top-[129px]"
           preserveAspectRatio="none"
         >
-          <g filter="url(#filter0_dd_578_469716)">
+          <g filter="url(#filter0_dd_588_472538)">
             <rect
               x="3"
               y="2"
@@ -1185,9 +1185,9 @@ const Home = (props) => {
             <path
               d="M49 28V34M49 34V40M49 34H55M49 34H43"
               stroke="#1E1B19"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             ></path>
             <rect
               x="36"
@@ -1196,25 +1196,26 @@ const Home = (props) => {
               height="26"
               rx="13"
               stroke="#1E1B19"
-              strokeWidth="2"
+              stroke-width="2"
             ></rect>
             <rect x="261.5" y="19" width="30" height="30" fill="white"></rect>
             <path
-              d="M283.77 41.3043C282.36 42.7137 280.556 43.6651 278.586 44.0383C276.615 44.4115 274.567 44.1897 272.699 43.4009C270.832 42.6121 269.229 41.2917 268.094 39.6068C266.959 37.9219 266.343 35.9481 266.323 33.935C266.303 31.9219 266.88 29.9599 267.982 28.2971C269.084 26.6343 270.661 25.3455 272.513 24.5935C274.365 23.8415 276.41 23.6602 278.388 24.0725C280.366 24.4848 282.19 25.4722 283.627 26.9098L276.512 34.0247L283.77 41.3043Z"
+              d="M283.77 41.3043C282.361 42.7137 280.557 43.6651 278.586 44.0383C276.616 44.4115 274.567 44.1897 272.7 43.4009C270.832 42.6121 269.23 41.2917 268.095 39.6068C266.96 37.9219 266.343 35.9481 266.323 33.935C266.304 31.9219 266.881 29.9599 267.983 28.2971C269.085 26.6343 270.661 25.3455 272.514 24.5935C274.366 23.8415 276.41 23.6602 278.389 24.0725C280.367 24.4848 282.19 25.4722 283.628 26.9098L276.513 34.0247L283.77 41.3043Z"
               fill="#1E1B19"
             ></path>
             <path
-              d="M270.956 39.5734C274.096 42.7137 279.156 42.7447 282.258 39.6427C285.36 36.5407 285.329 31.4804 282.189 28.3401C279.049 25.1998 273.988 25.1687 270.886 28.2707C267.784 31.3727 267.815 36.4331 270.956 39.5734Z"
+              d="M270.955 39.5734C274.095 42.7137 279.155 42.7447 282.257 39.6427C285.359 36.5407 285.328 31.4804 282.188 28.3401C279.048 25.1998 273.987 25.1687 270.885 28.2707C267.783 31.3727 267.814 36.4331 270.955 39.5734Z"
               fill="white"
             ></path>
             <path
-              d="M274.574 40.768C277.665 42.0741 281.181 40.647 282.426 37.5805C283.671 34.5139 282.173 30.9693 279.082 29.6632C275.99 28.3571 272.474 29.7842 271.229 32.8508C269.984 35.9173 271.482 39.462 274.574 40.768Z"
-              fill="url(#paint0_radial_578_469716)"
+              style={{ mixBlendMode: 'multiply' }}
+              d="M274.573 40.768C277.665 42.0741 281.18 40.647 282.425 37.5805C283.67 34.5139 282.173 30.9693 279.081 29.6632C275.989 28.3571 272.473 29.7842 271.228 32.8508C269.984 35.9173 271.481 39.462 274.573 40.768Z"
+              fill="url(#paint0_radial_588_472538)"
             ></path>
             <path
-              d="M288.73 30.7709L288.11 31.5554C288.787 32.091 289.226 32.8719 289.329 33.725C289.433 34.5777 289.194 35.4319 288.667 36.1009C288.14 36.7698 287.367 37.2009 286.516 37.2982C285.684 37.3936 284.843 37.161 284.172 36.6487L284.141 36.6182L284.099 36.584C283.538 36.134 282.823 35.9197 282.107 35.9894C281.39 36.0592 280.73 36.4078 280.27 36.9617L280.264 36.9683L280.259 36.9751C279.649 37.7349 278.817 38.2854 277.877 38.5502C276.937 38.8151 275.934 38.7815 275.007 38.4523C274.08 38.123 273.275 37.5146 272.705 36.711C272.134 35.9074 271.827 34.9491 271.823 33.9691C271.82 32.9892 272.121 32.0358 272.683 31.2399C273.245 30.4441 274.041 29.8439 274.963 29.5223C275.885 29.2006 276.887 29.1733 277.832 29.4456C278.776 29.7179 279.616 30.2764 280.234 31.0443L280.24 31.0516L280.246 31.0588C280.707 31.6096 281.364 31.9605 282.079 32.0351C282.794 32.1098 283.51 31.9019 284.072 31.4537L284.116 31.4186L284.138 31.3968C284.706 30.9892 285.393 30.7772 286.098 30.7953C286.826 30.814 287.529 31.0767 288.094 31.5425L288.73 30.7709Z"
+              d="M288.731 30.7709L288.11 31.5554C288.788 32.091 289.226 32.8719 289.33 33.725C289.434 34.5777 289.194 35.4319 288.668 36.1009C288.141 36.7698 287.368 37.2009 286.517 37.2982C285.684 37.3936 284.843 37.161 284.172 36.6487L284.142 36.6182L284.099 36.584C283.539 36.134 282.824 35.9197 282.108 35.9894C281.391 36.0592 280.731 36.4078 280.271 36.9617L280.265 36.9683L280.26 36.9751C279.65 37.7349 278.818 38.2854 277.878 38.5502C276.937 38.8151 275.935 38.7815 275.008 38.4523C274.081 38.123 273.276 37.5146 272.706 36.711C272.135 35.9074 271.828 34.9491 271.824 33.9691C271.821 32.9892 272.121 32.0358 272.683 31.2399C273.246 30.4441 274.042 29.8439 274.964 29.5223C275.886 29.2006 276.888 29.1733 277.833 29.4456C278.777 29.7179 279.617 30.2764 280.235 31.0443L280.241 31.0516L280.247 31.0588C280.708 31.6096 281.365 31.9605 282.08 32.0351C282.794 32.1098 283.51 31.9019 284.073 31.4537L284.117 31.4186L284.139 31.3968C284.706 30.9892 285.394 30.7772 286.099 30.7953C286.826 30.814 287.529 31.0767 288.094 31.5425L288.731 30.7709Z"
               stroke="#1E1B19"
-              strokeWidth="2"
+              stroke-width="2"
             ></path>
             <circle cx="286.057" cy="34.0078" r="1.25" fill="black"></circle>
             <path
@@ -1296,15 +1297,15 @@ const Home = (props) => {
           </g>
           <defs>
             <filter
-              id="filter0_dd_578_469716"
+              id="filter0_dd_588_472538"
               x="0"
               y="0"
               width="326"
               height="70"
               filterUnits="userSpaceOnUse"
-              colorInterpolationFilters="sRGB"
+              color-interpolation-filters="sRGB"
             >
-              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1320,7 +1321,7 @@ const Home = (props) => {
               <feBlend
                 mode="normal"
                 in2="BackgroundImageFix"
-                result="effect1_dropShadow_578_469716"
+                result="effect1_dropShadow_588_472538"
               ></feBlend>
               <feColorMatrix
                 in="SourceAlpha"
@@ -1336,26 +1337,26 @@ const Home = (props) => {
               ></feColorMatrix>
               <feBlend
                 mode="normal"
-                in2="effect1_dropShadow_578_469716"
-                result="effect2_dropShadow_578_469716"
+                in2="effect1_dropShadow_588_472538"
+                result="effect2_dropShadow_588_472538"
               ></feBlend>
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
-                in2="effect2_dropShadow_578_469716"
+                in2="effect2_dropShadow_588_472538"
                 result="shape"
               ></feBlend>
             </filter>
             <radialGradient
-              id="paint0_radial_578_469716"
+              id="paint0_radial_588_472538"
               cx="0"
               cy="0"
               r="1"
               gradientUnits="userSpaceOnUse"
-              gradientTransform="translate(-122.316 1834.65) rotate(45) scale(232.942 228.355)"
+              gradientTransform="translate(-122.317 1834.65) rotate(45) scale(232.942 228.355)"
             >
               <stop></stop>
-              <stop offset="1" stopColor="white"></stop>
+              <stop offset="1" stop-color="white"></stop>
             </radialGradient>
           </defs>
         </svg>
@@ -1365,10 +1366,10 @@ const Home = (props) => {
           viewBox="0 0 326 70"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-80 h-16 absolute left-[764px] top-[129px]"
+          class="w-80 h-16 absolute left-[764px] top-[129px]"
           preserveAspectRatio="none"
         >
-          <g filter="url(#filter0_dd_578_469723)">
+          <g filter="url(#filter0_dd_588_472551)">
             <rect
               x="3"
               y="2"
@@ -1381,9 +1382,9 @@ const Home = (props) => {
             <path
               d="M49 28V34M49 34V40M49 34H55M49 34H43"
               stroke="#1E1B19"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             ></path>
             <rect
               x="36"
@@ -1392,14 +1393,14 @@ const Home = (props) => {
               height="26"
               rx="13"
               stroke="#1E1B19"
-              strokeWidth="2"
+              stroke-width="2"
             ></rect>
             <path
               d="M266 27.75V40.25C266 43.0125 270.477 45.25 276 45.25C281.523 45.25 286 43.0125 286 40.25V27.75M266 27.75C266 30.5125 270.477 32.75 276 32.75C281.523 32.75 286 30.5125 286 27.75M266 27.75C266 24.9875 270.477 22.75 276 22.75C281.523 22.75 286 24.9875 286 27.75M286 34C286 36.7625 281.523 39 276 39C270.477 39 266 36.7625 266 34"
               stroke="#111928"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             ></path>
             <path
               d="M83.4219 32.7988C83.4219 32.002 83.6055 31.2734 83.9727 30.6133C84.3398 29.9531 84.8477 29.4336 85.4961 29.0547C86.1484 28.6719 86.873 28.4805 87.6699 28.4805C88.2676 28.4805 88.8359 28.5957 89.375 28.8262C89.918 29.0566 90.373 29.373 90.7402 29.7754L89.9375 30.5664C89.6836 30.2891 89.3516 30.0625 88.9414 29.8867C88.5312 29.707 88.1074 29.6172 87.6699 29.6172C86.8105 29.6172 86.0859 29.9219 85.4961 30.5312C84.9102 31.1406 84.6172 31.8965 84.6172 32.7988C84.6172 33.4199 84.7559 33.9746 85.0332 34.4629C85.3105 34.9473 85.6875 35.3223 86.1641 35.5879C86.6445 35.8496 87.1816 35.9805 87.7754 35.9805C88.291 35.9805 88.752 35.8672 89.1582 35.6406C89.5684 35.4102 89.9121 35.127 90.1895 34.791L91.0391 35.5586C90.6719 36.0273 90.1953 36.4043 89.6094 36.6895C89.0234 36.9746 88.4121 37.1172 87.7754 37.1172C87.1582 37.1172 86.5801 37.0078 86.041 36.7891C85.502 36.5703 85.041 36.2715 84.6582 35.8926C84.2754 35.5137 83.9727 35.0566 83.75 34.5215C83.5312 33.9863 83.4219 33.4121 83.4219 32.7988Z"
@@ -1476,15 +1477,15 @@ const Home = (props) => {
           </g>
           <defs>
             <filter
-              id="filter0_dd_578_469723"
+              id="filter0_dd_588_472551"
               x="0"
               y="0"
               width="326"
               height="70"
               filterUnits="userSpaceOnUse"
-              colorInterpolationFilters="sRGB"
+              color-interpolation-filters="sRGB"
             >
-              <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
+              <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
               <feColorMatrix
                 in="SourceAlpha"
                 type="matrix"
@@ -1500,7 +1501,7 @@ const Home = (props) => {
               <feBlend
                 mode="normal"
                 in2="BackgroundImageFix"
-                result="effect1_dropShadow_578_469723"
+                result="effect1_dropShadow_588_472551"
               ></feBlend>
               <feColorMatrix
                 in="SourceAlpha"
@@ -1516,21 +1517,21 @@ const Home = (props) => {
               ></feColorMatrix>
               <feBlend
                 mode="normal"
-                in2="effect1_dropShadow_578_469723"
-                result="effect2_dropShadow_578_469723"
+                in2="effect1_dropShadow_588_472551"
+                result="effect2_dropShadow_588_472551"
               ></feBlend>
               <feBlend
                 mode="normal"
                 in="SourceGraphic"
-                in2="effect2_dropShadow_578_469723"
+                in2="effect2_dropShadow_588_472551"
                 result="shape"
               ></feBlend>
             </filter>
           </defs>
         </svg>
         <div
-          className="w-80 h-16 absolute left-[1100px] top-[129px] rounded-[3px] bg-white border border-[#eaecf0]"
-          style={{boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)'}}
+          class="w-80 h-16 absolute left-[1100px] top-[129px] rounded-[3px] bg-white border border-[#eaecf0]"
+          style={{ boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)' }}
         >
           <svg
             width="28"
@@ -1538,16 +1539,16 @@ const Home = (props) => {
             viewBox="0 0 28 28"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-7 h-7 absolute left-8 top-[18px]"
+            class="w-7 h-7 absolute left-8 top-[18px]"
             preserveAspectRatio="none"
           >
             <path d="M14 14H8Z" fill="#1E1B19"></path>
             <path
               d="M14 8V14M14 14V20M14 14H20M14 14H8"
               stroke="#1E1B19"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             ></path>
             <rect
               x="1"
@@ -1556,17 +1557,17 @@ const Home = (props) => {
               height="26"
               rx="13"
               stroke="#1E1B19"
-              strokeWidth="2"
+              stroke-width="2"
             ></rect>
           </svg>
-          <div className="flex justify-start items-start absolute left-[262px] top-[18px] gap-2.5 pl-[3px] pr-0.5 py-0.5">
+          <div class="flex justify-start items-start absolute left-[262px] top-[18px] gap-2.5 pl-[3px] pr-0.5 py-0.5">
             <svg
               width="21"
               height="23"
               viewBox="0 0 21 23"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="flex-grow-0 flex-shrink-0 w-[20.24px] h-[22.24px] relative"
+              class="flex-grow-0 flex-shrink-0 w-[20.24px] h-[22.24px] relative"
               preserveAspectRatio="none"
             >
               <circle
@@ -1574,7 +1575,7 @@ const Home = (props) => {
                 cy="19.2427"
                 r="2"
                 stroke="#1E1B19"
-                strokeWidth="2"
+                stroke-width="2"
               ></circle>
               <rect
                 x="1"
@@ -1582,7 +1583,7 @@ const Home = (props) => {
                 width="4"
                 height="4"
                 stroke="#1E1B19"
-                strokeWidth="2"
+                stroke-width="2"
               ></rect>
               <rect
                 x="14"
@@ -1590,7 +1591,7 @@ const Home = (props) => {
                 width="4"
                 height="4"
                 stroke="#1E1B19"
-                strokeWidth="2"
+                stroke-width="2"
               ></rect>
               <rect
                 x="16"
@@ -1599,12 +1600,12 @@ const Home = (props) => {
                 height="4"
                 transform="rotate(45 16 1.41421)"
                 stroke="#1E1B19"
-                strokeWidth="2"
+                stroke-width="2"
               ></rect>
               <path
                 d="M5 4.24268H13M13 19.2427H5M16 7.24268V16.2427"
                 stroke="#1E1B19"
-                strokeWidth="2"
+                stroke-width="2"
               ></path>
             </svg>
           </div>
@@ -1614,7 +1615,7 @@ const Home = (props) => {
             viewBox="0 0 82 12"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="absolute left-[79.42px] top-[25.48px]"
+            class="absolute left-[79.42px] top-[25.48px]"
             preserveAspectRatio="none"
           >
             <path
@@ -1675,12 +1676,28 @@ const Home = (props) => {
             ></path>
           </svg>
         </div>
-        <p className="absolute left-[94px] top-[98px] text-base text-left text-black">
+        <p class="absolute left-[94px] top-[98px] text-base text-left text-black">
           Create new
         </p>
+      </div>
+      <div
+        class="flex justify-start items-center w-[510px] absolute left-[465px] top-[59px] pl-4 pr-2 py-2 rounded bg-[#0e7a53]"
+        style={{ boxShadow: '0px 32px 64px 0 rgba(52,48,44,0.08), 0px 16px 32px 0 rgba(52,48,44,0.05), 0px 6px 12px 0 rgba(52,48,44,0.04), 0px 2px 4px 0 rgba(52,48,44,0.03)' }}
+      >
+        <div class="flex justify-start items-center flex-grow relative gap-2">
+          <p class="flex-grow w-[426px] text-sm text-left text-white">
+            Subscribed successfully to Worker Profile!
+          </p>
+          <div class="flex justify-center items-center flex-grow-0 flex-shrink-0 h-8 relative gap-2 px-2 py-1 rounded">
+            <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-white">
+              Close
+            </p>
+          </div>
+        </div>
+        <div class="flex-grow-0 flex-shrink-0 w-0 h-8"></div>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default HomeSubscribed;
