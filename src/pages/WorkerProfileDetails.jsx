@@ -821,17 +821,17 @@ const WorkerProfileDetails = () => {
           ></path>
         </svg>
         <div class="w-[405px] h-[21px] absolute left-[939px] top-6">
-          <div class="flex flex-col justify-center items-start absolute left-[-24px] top-0">
+          <div class="flex flex-col justify-center items-start absolute left-[-24px] top-0 cursor-pointer" onClick={() => navigate('/')}>
             <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Home
             </p>
           </div>
-          <div class="flex flex-col justify-center items-start absolute left-10 top-0">
+          <div class="flex flex-col justify-center items-start absolute left-10 top-0 cursor-pointer" onClick={() => navigate('/data-landscape')}>
             <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Data Landscape
             </p>
           </div>
-          <div class="flex flex-col justify-center items-start absolute left-[172px] top-0">
+          <div class="flex flex-col justify-center items-start absolute left-[172px] top-0 cursor-pointer" onClick={() => navigate('/exchange-all')}>
             <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Exchange
             </p>

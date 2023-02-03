@@ -576,7 +576,7 @@ const ExchangeSharedWithMe = () => {
               Exchange
             </p>
           </div>
-          <div class="flex flex-col justify-center items-start absolute left-[260px] top-0 cursor-pointer" onClick={() => navigate('/insights')}>
+          <div class="flex flex-col justify-center items-start absolute left-[260px] top-0">
             <p class="flex-grow-0 flex-shrink-0 text-sm text-center text-[#1e1b19]">
               Insights
             </p>

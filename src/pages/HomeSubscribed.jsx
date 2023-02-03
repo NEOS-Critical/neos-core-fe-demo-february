@@ -292,8 +292,9 @@ const HomeSubscribed = () => {
       </div>
       <div class="w-[992px] h-48">
         <div
-          class="w-80 h-40 absolute left-[92px] top-[249px] bg-white border border-[#eaecf0]"
+          class="w-80 h-40 absolute left-[92px] top-[249px] bg-white border border-[#eaecf0] cursor-pointer"
           style={{ boxShadow: '0px 1px 3px 0 rgba(16,24,40,0.1), 0px 1px 2px 0 rgba(16,24,40,0.06)' }}
+          onClick={() => navigate('/worker-profile')}
         >
           <p class="w-[301.33px] absolute left-6 top-6 text-base text-left text-[#101828]">
             Worker Profile

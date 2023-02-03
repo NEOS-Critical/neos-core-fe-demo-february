@@ -87,15 +87,6 @@ const WorkerProfile = () => {
               Jobs per skill level (position)
             </span>
             <br />
-            <br />
-            <span class="w-[289.61px] h-[304.81px] text-[13.170732498168945px] text-left text-black">
-              Data sources
-            </span>
-            <br />
-            <span class="w-[289.61px] h-[304.81px] text-[13.170732498168945px] font-light text-left text-black">
-              NEOM HR, Procurement, Project, Operations
-            </span>
-            <br />
             <span class="w-[289.61px] h-[304.81px] text-[13.170732498168945px] font-light text-left text-black">
               Dashboard owner: EDO
             </span>
